@@ -1,0 +1,159 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+POS
+</name>
+</assembly>
+<members>
+<member name="T:POS.POSDS.ValuesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POS.POSDS.ReciptsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POS.POSDS.ReciptDetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POS.POSDS.TotalProfitForAllTimeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POS.POSDS.ItemsTotalDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POS.POSDS.RestorantTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POS.POSDS.ItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:POS.POSDS.ValuesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POS.POSDS.ReciptsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POS.POSDS.ReciptDetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POS.POSDS.TotalProfitForAllTimeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POS.POSDS.ItemsTotalRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POS.POSDS.RestorantTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POS.POSDS.ItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:POS.POSDS.ValuesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POS.POSDS.ReciptsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POS.POSDS.ReciptDetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POS.POSDS.TotalProfitForAllTimeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POS.POSDS.ItemsTotalRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POS.POSDS.RestorantTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POS.POSDS.ItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:POS.POSDS">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.ValuesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.ReciptsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.ReciptDetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.TotalProfitForAllTimeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.ItemsTotalTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.RestorantTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.ItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:POS.POSDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(POS.POSDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:POS.POSDSTableAdapters.TableAdapterManager.UpdateInsertedRows(POS.POSDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:POS.POSDSTableAdapters.TableAdapterManager.UpdateDeletedRows(POS.POSDS,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:POS.POSDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:POS.POSDSTableAdapters.TableAdapterManager.UpdateAll(POS.POSDS)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:POS.POSDSTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

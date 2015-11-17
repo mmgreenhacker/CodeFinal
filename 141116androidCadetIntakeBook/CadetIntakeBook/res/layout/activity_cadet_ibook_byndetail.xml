@@ -1,0 +1,254 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="100dp" 
+    	android:background="#1223cd"
+    	android:padding="5dp"
+    	android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ImageButton1"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"       
+            android:onClick="funHome"     
+            android:src="@drawable/home"/>
+
+        <TextView
+            android:id="@+id/tvTitleDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="18dip"
+            android:shadowDx="5"
+            android:shadowDy="5"           
+            android:shadowRadius="5"
+            android:shadowColor="#a72cda"
+            android:lineSpacingExtra="5dp"
+            android:textColor="#fff"
+            android:onClick="funBluePhoenix"
+            android:text="@string/app_name" />
+        	
+         <ImageButton
+            android:id="@+id/ImageButton1"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"           
+            android:onClick="funHome" 
+            android:src="@drawable/home"/>
+    </LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="100dp"
+	    android:orientation="vertical" >
+
+		<ImageView
+		    android:id="@+id/imgPhoto"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:scaleType="fitXY"
+		    android:layout_gravity="right"
+		    android:padding="10dp"
+		    android:onClick="funCallHim"
+		    android:src="@drawable/dsta" />
+
+	</LinearLayout>
+
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:orientation="vertical" 
+        android:padding="15dp"
+        >
+      
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"        
+        android:text="ဗလအမွတ္" />
+    <TextView 
+        android:id="@+id/etCdId" 
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textView2"
+         android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="အမည္" />
+    <TextView 
+        android:id="@+id/etCdName" 
+         android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="စစ္လက္ရံုး" />
+    <TextView
+        android:id="@+id/etDir"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="ဖုန္းနံပါတ္" />
+    <TextView
+        android:id="@+id/etPhone"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView5dp"
+         android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="FaceBook" />
+    <TextView
+        android:id="@+id/etFb"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView6"
+         android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="ေမဂ်ာ" />
+    <TextView
+        android:id="@+id/etMaj"
+         android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="လိပ္စာ" />
+    <TextView
+        android:id="@+id/etAddress"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView8"
+       android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="တပ္ရင္း" />
+    <TextView
+        android:id="@+id/etCom"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/textView9"
+       android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="တပ္ခြဲ" />
+    <TextView
+        android:id="@+id/etBat"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:lineSpacingExtra="5dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
+</LinearLayout>
+	</ScrollView>
+
+    
+	
+</LinearLayout>

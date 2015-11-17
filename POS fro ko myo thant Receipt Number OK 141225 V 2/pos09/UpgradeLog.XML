@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="POS">
+</Property><Property Name="Solution File" Value="H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\POS.sln">
+</Property><Property Name="User Options File" Value="H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\POS.suo">
+</Property><Property Name="Date" Value="Sunday, November 15, 2015">
+</Property><Property Name="Time" Value="19:41 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="POS.sln" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POS.sln">
+</Event><Event ErrorLevel="0" Project="" Source="POS.suo" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POS.suo">
+</Event><Event ErrorLevel="0" Project="POS" Source="POS.vbproj" Description="Project file successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POS.vbproj">
+</Event><Event ErrorLevel="0" Project="POS" Source="POS.vbproj.user" Description="Project user file successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POS.vbproj.user">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmActivate.designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmActivate.designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmActivate.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmActivate.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmChangeUname.designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmChangeUname.designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmChangeUname.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmChangeUname.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\LoginForm1.designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\LoginForm1.designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\LoginForm1.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\LoginForm1.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="Modules\BackupRestoreModule.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\Modules\BackupRestoreModule.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="Modules\GeneralModule.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\Modules\GeneralModule.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmAbout.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmAbout.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmAbout.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmAbout.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\AddItem.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\AddItem.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\AddItem.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\AddItem.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\ChangePassword.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\ChangePassword.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\ChangePassword.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\ChangePassword.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\EditItem.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\EditItem.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\EditItem.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\EditItem.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\InputPassword.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\InputPassword.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\InputPassword.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\InputPassword.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\MainWindow.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\MainWindow.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\MainWindow.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\MainWindow.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\PasswordPicker.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\PasswordPicker.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\PasswordPicker.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\PasswordPicker.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="Modules\ActivationModule.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\Modules\ActivationModule.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="My Project\AssemblyInfo.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="My Project\Application.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="POSDS.Designer.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POSDS.Designer.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="POSDS.vb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POSDS.vb">
+</Event><Event ErrorLevel="0" Project="POS" Source="app.config" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="POS" Source="My Project\app.manifest" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\My Project\app.manifest">
+</Event><Event ErrorLevel="0" Project="POS" Source="My Project\Application.myapp" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="POS" Source="My Project\Settings.settings" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="POS" Source="Order Sheet.xlsx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\Order Sheet.xlsx">
+</Event><Event ErrorLevel="0" Project="POS" Source="POSDS.xsc" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POSDS.xsc">
+</Event><Event ErrorLevel="0" Project="POS" Source="POSDS.xsd" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POSDS.xsd">
+</Event><Event ErrorLevel="0" Project="POS" Source="POSDS.xss" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\POSDS.xss">
+</Event><Event ErrorLevel="0" Project="POS" Source="steps.xlsx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\steps.xlsx">
+</Event><Event ErrorLevel="0" Project="POS" Source="db.accdb" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\db.accdb">
+</Event><Event ErrorLevel="0" Project="POS" Source="pos-devices.ico" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\pos-devices.ico">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmAbout.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmAbout.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\AddItem.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\AddItem.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\ChangePassword.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\ChangePassword.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\EditItem.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\EditItem.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmActivate.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmActivate.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\frmChangeUname.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\frmChangeUname.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\InputPassword.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\InputPassword.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\LoginForm1.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\LoginForm1.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\MainWindow.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\MainWindow.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="GUI\PasswordPicker.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\GUI\PasswordPicker.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="Reports\ItemsTotal.rdlc" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\Reports\ItemsTotal.rdlc">
+</Event><Event ErrorLevel="0" Project="POS" Source="My Project\Resources.resx" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="POS" Source="Reports\TotalProfitBetweenTwoDates.rdlc" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\Reports\TotalProfitBetweenTwoDates.rdlc">
+</Event><Event ErrorLevel="0" Project="POS" Source="Reports\TotalProfitForAllTime.rdlc" Description="File successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\Reports\TotalProfitForAllTime.rdlc">
+</Event><Event ErrorLevel="0" Project="POS" Source="POS.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="POS" Source="POS.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PosSetup.vdproj" Source="PosSetup\PosSetup.vdproj" Description="Project file successfully backed up as H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\Backup\PosSetup\PosSetup.vdproj">
+</Event><Event ErrorLevel="0" Project="" Source="POS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="POS.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="POS" Source="POS.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

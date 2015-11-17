@@ -1,0 +1,178 @@
+C:\Users\mka\Desktop\pos\POS\bin\Debug\db.accdb
+C:\Users\mka\Desktop\pos\POS\bin\Debug\POS.exe.config
+C:\Users\mka\Desktop\pos\POS\bin\Debug\POS.exe
+C:\Users\mka\Desktop\pos\POS\bin\Debug\POS.pdb
+C:\Users\mka\Desktop\pos\POS\bin\Debug\POS.xml
+C:\Users\mka\Desktop\pos\POS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mka\Desktop\pos\POS\obj\Debug\POS.MainWindow.resources
+C:\Users\mka\Desktop\pos\POS\obj\Debug\POS.PasswordPicker.resources
+C:\Users\mka\Desktop\pos\POS\obj\Debug\POS.Resources.resources
+C:\Users\mka\Desktop\pos\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\mka\Desktop\pos\POS\obj\Debug\POS.exe
+C:\Users\mka\Desktop\pos\POS\obj\Debug\POS.xml
+C:\Users\mka\Desktop\pos\POS\obj\Debug\POS.pdb
+C:\Users\mka\Desktop\pos\POS\obj\Debug\POS.ChangePassword.resources
+C:\Users\mka\Desktop\pos02\pos\POS\bin\Debug\POS.exe.config
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.exe
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.xml
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.pdb
+C:\Users\mka\Desktop\pos02\pos\POS\bin\Debug\db.accdb
+C:\Users\mka\Desktop\pos02\pos\POS\bin\Debug\POS.exe
+C:\Users\mka\Desktop\pos02\pos\POS\bin\Debug\POS.pdb
+C:\Users\mka\Desktop\pos02\pos\POS\bin\Debug\POS.xml
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.ChangePassword.resources
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.MainWindow.resources
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.PasswordPicker.resources
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.Resources.resources
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.AddItem.resources
+C:\Users\mka\Desktop\pos02\pos\POS\obj\Debug\POS.EditItem.resources
+C:\Users\mka\Desktop\pos\bin\Debug\POS.exe.config
+C:\Users\mka\Desktop\pos\obj\Debug\POS.exe
+C:\Users\mka\Desktop\pos\obj\Debug\POS.xml
+C:\Users\mka\Desktop\pos\obj\Debug\POS.pdb
+C:\Users\mka\Desktop\pos\bin\Debug\db.accdb
+C:\Users\mka\Desktop\pos\bin\Debug\POS.exe
+C:\Users\mka\Desktop\pos\bin\Debug\POS.pdb
+C:\Users\mka\Desktop\pos\bin\Debug\POS.xml
+C:\Users\mka\Desktop\pos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mka\Desktop\pos\obj\Debug\POS.AddItem.resources
+C:\Users\mka\Desktop\pos\obj\Debug\POS.ChangePassword.resources
+C:\Users\mka\Desktop\pos\obj\Debug\POS.EditItem.resources
+C:\Users\mka\Desktop\pos\obj\Debug\POS.MainWindow.resources
+C:\Users\mka\Desktop\pos\obj\Debug\POS.PasswordPicker.resources
+C:\Users\mka\Desktop\pos\obj\Debug\POS.Resources.resources
+C:\Users\mka\Desktop\pos\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\mka\Desktop\pos04\bin\Debug\POS.exe.config
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.exe
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.xml
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.pdb
+C:\Users\mka\Desktop\pos04\bin\Debug\db.accdb
+C:\Users\mka\Desktop\pos04\bin\Debug\POS.exe
+C:\Users\mka\Desktop\pos04\bin\Debug\POS.pdb
+C:\Users\mka\Desktop\pos04\bin\Debug\POS.xml
+C:\Users\mka\Desktop\pos04\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.AddItem.resources
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.ChangePassword.resources
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.EditItem.resources
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.MainWindow.resources
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.PasswordPicker.resources
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.Resources.resources
+C:\Users\mka\Desktop\pos04\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\mka\Desktop\pos04\obj\Debug\RdlCompile.cache
+C:\Users\mka\Desktop\pos04\obj\Debug\RdlCompile.compiled
+C:\Users\mka\Desktop\pos05\bin\Debug\POS.exe.config
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.exe
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.xml
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.pdb
+C:\Users\mka\Desktop\pos05\bin\Debug\db.accdb
+C:\Users\mka\Desktop\pos05\bin\Debug\POS.exe
+C:\Users\mka\Desktop\pos05\bin\Debug\POS.pdb
+C:\Users\mka\Desktop\pos05\bin\Debug\POS.xml
+C:\Users\mka\Desktop\pos05\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.AddItem.resources
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.ChangePassword.resources
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.EditItem.resources
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.MainWindow.resources
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.PasswordPicker.resources
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.Resources.resources
+C:\Users\mka\Desktop\pos05\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\mka\Desktop\pos05\obj\Debug\RdlCompile.cache
+C:\Users\mka\Desktop\pos05\obj\Debug\RdlCompile.compiled
+C:\Users\mka\Desktop\pos06\bin\Debug\POS.exe.config
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.exe
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.xml
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.pdb
+C:\Users\mka\Desktop\pos06\bin\Debug\db.accdb
+C:\Users\mka\Desktop\pos06\bin\Debug\POS.exe
+C:\Users\mka\Desktop\pos06\bin\Debug\POS.pdb
+C:\Users\mka\Desktop\pos06\bin\Debug\POS.xml
+C:\Users\mka\Desktop\pos06\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.AddItem.resources
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.ChangePassword.resources
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.EditItem.resources
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.MainWindow.resources
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.PasswordPicker.resources
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.Resources.resources
+C:\Users\mka\Desktop\pos06\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\mka\Desktop\pos06\obj\Debug\RdlCompile.cache
+C:\Users\mka\Desktop\pos06\obj\Debug\RdlCompile.compiled
+C:\Users\mka\Desktop\pos07\bin\Debug\POS.exe.config
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.exe
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.xml
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.pdb
+C:\Users\mka\Desktop\pos07\bin\Debug\db.accdb
+C:\Users\mka\Desktop\pos07\bin\Debug\POS.exe
+C:\Users\mka\Desktop\pos07\bin\Debug\POS.pdb
+C:\Users\mka\Desktop\pos07\bin\Debug\POS.xml
+C:\Users\mka\Desktop\pos07\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.AddItem.resources
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.ChangePassword.resources
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.EditItem.resources
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.MainWindow.resources
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.PasswordPicker.resources
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.Resources.resources
+C:\Users\mka\Desktop\pos07\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\mka\Desktop\pos07\obj\Debug\RdlCompile.cache
+C:\Users\mka\Desktop\pos07\obj\Debug\RdlCompile.compiled
+C:\Users\mka\Desktop\pos09\bin\Debug\POS.exe.config
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.exe
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.xml
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.pdb
+C:\Users\mka\Desktop\pos09\bin\Debug\db.accdb
+C:\Users\mka\Desktop\pos09\bin\Debug\POS.exe
+C:\Users\mka\Desktop\pos09\bin\Debug\POS.pdb
+C:\Users\mka\Desktop\pos09\bin\Debug\POS.xml
+C:\Users\mka\Desktop\pos09\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.AddItem.resources
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.ChangePassword.resources
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.EditItem.resources
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.MainWindow.resources
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.PasswordPicker.resources
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.Resources.resources
+C:\Users\mka\Desktop\pos09\obj\Debug\POS.vbproj.GenerateResource.Cache
+C:\Users\mka\Desktop\pos09\obj\Debug\RdlCompile.cache
+C:\Users\mka\Desktop\pos09\obj\Debug\RdlCompile.compiled
+F:\POS for KoMyoThant\Archives\pos09\pos09\bin\Debug\POS.exe.config
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.exe
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.xml
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.pdb
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\ResolveAssemblyReference.cache
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.AddItem.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.ChangePassword.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.EditItem.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.MainWindow.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.PasswordPicker.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.Resources.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.vbproj.GenerateResource.Cache
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\RdlCompile.cache
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\RdlCompile.compiled
+F:\POS for KoMyoThant\Archives\pos09\pos09\bin\Debug\db.accdb
+F:\POS for KoMyoThant\Archives\pos09\pos09\bin\Debug\POS.exe
+F:\POS for KoMyoThant\Archives\pos09\pos09\bin\Debug\POS.pdb
+F:\POS for KoMyoThant\Archives\pos09\pos09\bin\Debug\POS.xml
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.InputPassword.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.frmAbout.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.frmActivate.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.frmChangeUname.resources
+F:\POS for KoMyoThant\Archives\pos09\pos09\obj\Debug\POS.LoginForm1.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\bin\Debug\POS.exe.config
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.exe
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.xml
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.pdb
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.frmAbout.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.AddItem.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.ChangePassword.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.EditItem.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.frmActivate.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.frmChangeUname.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.InputPassword.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.LoginForm1.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.MainWindow.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.PasswordPicker.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.Resources.resources
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.vbproj.GenerateResource.Cache
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\RdlCompile.cache
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\RdlCompile.compiled
+H:\POS fro ko myo thant Receipt Number OK 141225 V 2\pos09\obj\Debug\POS.vbprojResolveAssemblyReference.cache

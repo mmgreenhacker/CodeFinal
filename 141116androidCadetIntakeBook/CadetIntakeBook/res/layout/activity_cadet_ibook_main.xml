@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4bd84b"
+    android:orientation="vertical" >
+
+	<LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="40dp" 
+    	android:background="#212d2d"
+    	android:padding="5dp"
+    	android:orientation="horizontal">
+
+       
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="24dip"
+            android:shadowDx="5"
+            android:shadowDy="5"           
+            android:shadowRadius="5"
+            android:shadowColor="#e984f2"
+            android:lineSpacingExtra="5dp"
+            android:textColor="#1ef22d"  
+            android:text="D.S.T.A 17th Intake Book" />
+        	
+         
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent" 
+    	android:background="#0b3b0b"
+    	android:padding="15dp"
+    	android:layout_weight="1"
+    	android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:onClick="funSearch"
+            android:layout_gravity="center"
+            android:src="@drawable/dsta" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="#1223cd"
+            android:onClick="funBYN"
+            android:text="ဘုရင္႔ေနာင္ တပ္ရင္း"
+            />
+      <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="#ec1f3c"
+            android:onClick="funANY"
+            android:text="အေနာ္ရထာတပ္ရင္း" />
+         
+    </LinearLayout>
+<LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="40dp" 
+    	android:background="#212d2d"
+    	android:padding="5dp"
+    	android:orientation="horizontal">       
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="18dip"
+            android:shadowDx="5"
+            android:shadowDy="5"           
+            android:shadowRadius="5"
+            android:shadowColor="#a72cda"
+            android:lineSpacingExtra="5dp"
+            android:textColor="#fff"
+            android:onClick="funBluePhoenix"
+            android:text="@string/dev_name" />
+        	
+         
+    </LinearLayout>
+    
+</LinearLayout>

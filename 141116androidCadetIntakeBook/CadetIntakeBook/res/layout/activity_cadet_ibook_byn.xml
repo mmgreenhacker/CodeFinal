@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+	<LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="100dp" 
+    	android:background="#1223cd"
+    	android:padding="5dp"
+    	android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ImageButton1"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"       
+            android:onClick="funHome"     
+            android:src="@drawable/home"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="18dip"
+            android:shadowDx="5"
+            android:shadowDy="5"           
+            android:shadowRadius="5"
+            android:shadowColor="#e984f2"
+            android:lineSpacingExtra="5dp"
+            android:textColor="#1ef22d"  
+            android:text="ဘုရင္႔ေနာင္တပ္ရင္း" />
+        	
+         <ImageButton
+            android:id="@+id/ImageButton1"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"           
+            android:onClick="funHome" 
+            android:src="@drawable/home"/>
+    </LinearLayout>
+
+	<ListView
+	    android:id="@+id/listByn"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:layout_marginTop="5dp"
+	    android:layout_weight="1"
+	    android:padding="10dp" >
+	</ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:gravity="center"      
+        android:lineSpacingExtra="5dp"
+        android:shadowColor="#a72cda"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:onClick="funBluePhoenix"
+        android:text="@string/dev_name"
+        android:textColor="#fff"
+        android:textSize="18dip" />
+        	
+</LinearLayout>
