@@ -22,3 +22,14 @@ G:\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\2 - My Coding\VB.NET\Cadet Project
 G:\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\2 - My Coding\VB.NET\Cadet Projects Intake book\14111101vbSQLiteEditor2015\14110202vbSQLiteEditor2015\obj\x86\Debug\_14110202vbSQLiteEditor2015.Resources.resources
 G:\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\2 - My Coding\VB.NET\Cadet Projects Intake book\14111101vbSQLiteEditor2015\14110202vbSQLiteEditor2015\obj\x86\Debug\ResGen.read.1.tlog
 G:\!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\2 - My Coding\VB.NET\Cadet Projects Intake book\14111101vbSQLiteEditor2015\14110202vbSQLiteEditor2015\obj\x86\Debug\ResGen.write.1.tlog
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\obj\x86\Debug\14110202vbSQLiteEditor2015.exe
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\obj\x86\Debug\14110202vbSQLiteEditor2015.xml
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\obj\x86\Debug\14110202vbSQLiteEditor2015.pdb
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\bin\Debug\14110202vbSQLiteEditor2015.exe
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\bin\Debug\14110202vbSQLiteEditor2015.pdb
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\bin\Debug\14110202vbSQLiteEditor2015.xml
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\obj\x86\Debug\14110202vbSQLiteEditor2015.vbprojResolveAssemblyReference.cache
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\obj\x86\Debug\_14110202vbSQLiteEditor2015.Form1.resources
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\obj\x86\Debug\_14110202vbSQLiteEditor2015.frmSimple.resources
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\obj\x86\Debug\_14110202vbSQLiteEditor2015.Resources.resources
+L:\Students\CodeFinal\14111601vbSQLiteEditor2015_V1.02\14111601vbSQLiteEditor2015_V1.02\14110202vbSQLiteEditor2015\obj\x86\Debug\14110202vbSQLiteEditor2015.vbproj.GenerateResource.Cache
