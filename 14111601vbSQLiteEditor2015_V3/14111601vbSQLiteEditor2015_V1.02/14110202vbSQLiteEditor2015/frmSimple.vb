@@ -56,15 +56,21 @@ Public Class frmSimple
             lstDIR = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "dir")
             lstPh = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "ph")
             lstFb = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "fb")
+            '######### TO DO
+            'lstMaj = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "maj")
+            '#########
             lstAddress = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "address")
             lstBat = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "bat")
             lstCom = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "com")
             lstPic = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "pic")
 
+            'ေဒတာေဘ႔စ္က အခ်က္အလက္ေတြကို ထုတ္ယူတာ မရခဲ႔ရင္ ထြက္မယ္
             If lstCdID.Count = 0 Then
                 MessageBox.Show("No data return!")
                 Exit Sub
             End If
+
+            'Cadet နာမည္ေတြကို စီထည္႔မယ္
             For Each sresult1 In lstCdName
                 ListBox1.Items.Add(sresult1)
             Next
@@ -128,7 +134,7 @@ Public Class frmSimple
                 Next
                 'lstData.Add(sShortFileName(sfname, sFtype))
                 If Not modSQLite.InsertListIntoDatabase(lstData) Then
-                    modDirAndFile.AppendFileDataln("g:\error", sfname)
+                    modDirAndFile.AppendFileDataln("error.txt", sfname)
                 End If
                 lstData.Clear()
                 If ProgressBar1.Value < 60 Then
@@ -143,6 +149,10 @@ Public Class frmSimple
             lstDIR = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "dir")
             lstPh = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "ph")
             lstFb = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "fb")
+            '#####  TO DO
+            '
+            '#####
+
             lstAddress = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "address")
             ProgressBar1.Value = 65
             lstBat = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "bat")

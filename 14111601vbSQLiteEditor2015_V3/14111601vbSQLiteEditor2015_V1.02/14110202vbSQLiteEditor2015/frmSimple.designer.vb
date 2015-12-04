@@ -46,6 +46,17 @@ Partial Class frmSimple
         Me.FileInfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.txtPhotoAddress = New System.Windows.Forms.TextBox()
         Me.btnPhotoBrowse = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.picCadet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -54,7 +65,7 @@ Partial Class frmSimple
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 18
-        Me.ListBox1.Location = New System.Drawing.Point(13, 67)
+        Me.ListBox1.Location = New System.Drawing.Point(13, 91)
         Me.ListBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.Size = New System.Drawing.Size(109, 130)
@@ -64,7 +75,7 @@ Partial Class frmSimple
         '
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.ItemHeight = 18
-        Me.ListBox2.Location = New System.Drawing.Point(146, 67)
+        Me.ListBox2.Location = New System.Drawing.Point(146, 91)
         Me.ListBox2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(109, 130)
@@ -74,7 +85,7 @@ Partial Class frmSimple
         '
         Me.ListBox3.FormattingEnabled = True
         Me.ListBox3.ItemHeight = 18
-        Me.ListBox3.Location = New System.Drawing.Point(279, 67)
+        Me.ListBox3.Location = New System.Drawing.Point(279, 91)
         Me.ListBox3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox3.Name = "ListBox3"
         Me.ListBox3.Size = New System.Drawing.Size(109, 130)
@@ -84,7 +95,7 @@ Partial Class frmSimple
         '
         Me.ListBox4.FormattingEnabled = True
         Me.ListBox4.ItemHeight = 18
-        Me.ListBox4.Location = New System.Drawing.Point(412, 67)
+        Me.ListBox4.Location = New System.Drawing.Point(412, 91)
         Me.ListBox4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox4.Name = "ListBox4"
         Me.ListBox4.Size = New System.Drawing.Size(109, 130)
@@ -94,7 +105,7 @@ Partial Class frmSimple
         '
         Me.ListBox5.FormattingEnabled = True
         Me.ListBox5.ItemHeight = 18
-        Me.ListBox5.Location = New System.Drawing.Point(13, 217)
+        Me.ListBox5.Location = New System.Drawing.Point(13, 262)
         Me.ListBox5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox5.Name = "ListBox5"
         Me.ListBox5.Size = New System.Drawing.Size(109, 130)
@@ -104,7 +115,7 @@ Partial Class frmSimple
         '
         Me.ListBox6.FormattingEnabled = True
         Me.ListBox6.ItemHeight = 18
-        Me.ListBox6.Location = New System.Drawing.Point(147, 217)
+        Me.ListBox6.Location = New System.Drawing.Point(147, 262)
         Me.ListBox6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox6.Name = "ListBox6"
         Me.ListBox6.Size = New System.Drawing.Size(109, 130)
@@ -112,7 +123,7 @@ Partial Class frmSimple
         '
         'btnReadDatabase
         '
-        Me.btnReadDatabase.Location = New System.Drawing.Point(12, 391)
+        Me.btnReadDatabase.Location = New System.Drawing.Point(12, 477)
         Me.btnReadDatabase.Name = "btnReadDatabase"
         Me.btnReadDatabase.Size = New System.Drawing.Size(148, 45)
         Me.btnReadDatabase.TabIndex = 14
@@ -121,7 +132,7 @@ Partial Class frmSimple
         '
         'btnLastTest
         '
-        Me.btnLastTest.Location = New System.Drawing.Point(180, 391)
+        Me.btnLastTest.Location = New System.Drawing.Point(180, 477)
         Me.btnLastTest.Name = "btnLastTest"
         Me.btnLastTest.Size = New System.Drawing.Size(148, 45)
         Me.btnLastTest.TabIndex = 15
@@ -130,7 +141,7 @@ Partial Class frmSimple
         '
         'btnChangeFileName
         '
-        Me.btnChangeFileName.Location = New System.Drawing.Point(348, 391)
+        Me.btnChangeFileName.Location = New System.Drawing.Point(348, 477)
         Me.btnChangeFileName.Name = "btnChangeFileName"
         Me.btnChangeFileName.Size = New System.Drawing.Size(148, 45)
         Me.btnChangeFileName.TabIndex = 16
@@ -139,7 +150,7 @@ Partial Class frmSimple
         '
         'btnBrowseAndAdd
         '
-        Me.btnBrowseAndAdd.Location = New System.Drawing.Point(516, 391)
+        Me.btnBrowseAndAdd.Location = New System.Drawing.Point(516, 477)
         Me.btnBrowseAndAdd.Name = "btnBrowseAndAdd"
         Me.btnBrowseAndAdd.Size = New System.Drawing.Size(148, 45)
         Me.btnBrowseAndAdd.TabIndex = 18
@@ -148,7 +159,7 @@ Partial Class frmSimple
         '
         'txtAppend
         '
-        Me.txtAppend.Location = New System.Drawing.Point(13, 354)
+        Me.txtAppend.Location = New System.Drawing.Point(13, 436)
         Me.txtAppend.Multiline = True
         Me.txtAppend.Name = "txtAppend"
         Me.txtAppend.Size = New System.Drawing.Size(820, 29)
@@ -159,7 +170,7 @@ Partial Class frmSimple
         '
         Me.ListBox7.FormattingEnabled = True
         Me.ListBox7.ItemHeight = 18
-        Me.ListBox7.Location = New System.Drawing.Point(279, 217)
+        Me.ListBox7.Location = New System.Drawing.Point(279, 262)
         Me.ListBox7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox7.Name = "ListBox7"
         Me.ListBox7.Size = New System.Drawing.Size(109, 130)
@@ -169,7 +180,7 @@ Partial Class frmSimple
         '
         Me.ListBox8.FormattingEnabled = True
         Me.ListBox8.ItemHeight = 18
-        Me.ListBox8.Location = New System.Drawing.Point(412, 217)
+        Me.ListBox8.Location = New System.Drawing.Point(412, 262)
         Me.ListBox8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox8.Name = "ListBox8"
         Me.ListBox8.Size = New System.Drawing.Size(109, 130)
@@ -179,7 +190,7 @@ Partial Class frmSimple
         '
         Me.ListBox9.FormattingEnabled = True
         Me.ListBox9.ItemHeight = 18
-        Me.ListBox9.Location = New System.Drawing.Point(545, 217)
+        Me.ListBox9.Location = New System.Drawing.Point(545, 262)
         Me.ListBox9.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.ListBox9.Name = "ListBox9"
         Me.ListBox9.Size = New System.Drawing.Size(109, 130)
@@ -187,7 +198,7 @@ Partial Class frmSimple
         '
         'btnAppendFileName
         '
-        Me.btnAppendFileName.Location = New System.Drawing.Point(684, 391)
+        Me.btnAppendFileName.Location = New System.Drawing.Point(684, 477)
         Me.btnAppendFileName.Name = "btnAppendFileName"
         Me.btnAppendFileName.Size = New System.Drawing.Size(148, 45)
         Me.btnAppendFileName.TabIndex = 24
@@ -198,14 +209,14 @@ Partial Class frmSimple
         '
         Me.lstError.FormattingEnabled = True
         Me.lstError.ItemHeight = 18
-        Me.lstError.Location = New System.Drawing.Point(669, 67)
+        Me.lstError.Location = New System.Drawing.Point(669, 91)
         Me.lstError.Name = "lstError"
-        Me.lstError.Size = New System.Drawing.Size(164, 274)
+        Me.lstError.Size = New System.Drawing.Size(164, 292)
         Me.lstError.TabIndex = 25
         '
         'picCadet
         '
-        Me.picCadet.Location = New System.Drawing.Point(545, 67)
+        Me.picCadet.Location = New System.Drawing.Point(545, 91)
         Me.picCadet.Name = "picCadet"
         Me.picCadet.Size = New System.Drawing.Size(109, 130)
         Me.picCadet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -214,7 +225,7 @@ Partial Class frmSimple
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(12, 443)
+        Me.ProgressBar1.Location = New System.Drawing.Point(12, 529)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(820, 23)
         Me.ProgressBar1.TabIndex = 27
@@ -274,11 +285,121 @@ Partial Class frmSimple
         Me.btnPhotoBrowse.Text = "Browse"
         Me.btnPhotoBrowse.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(34, 72)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 18)
+        Me.Label1.TabIndex = 33
+        Me.Label1.Text = "Label1"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(144, 72)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(39, 18)
+        Me.Label2.TabIndex = 34
+        Me.Label2.Text = "Label2"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(276, 72)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(39, 18)
+        Me.Label3.TabIndex = 35
+        Me.Label3.Text = "Label3"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(419, 72)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(39, 18)
+        Me.Label4.TabIndex = 36
+        Me.Label4.Text = "Label4"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(542, 70)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(39, 18)
+        Me.Label5.TabIndex = 37
+        Me.Label5.Text = "Label5"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(10, 240)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(39, 18)
+        Me.Label6.TabIndex = 38
+        Me.Label6.Text = "Label6"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(144, 240)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(39, 18)
+        Me.Label7.TabIndex = 39
+        Me.Label7.Text = "Label7"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(276, 240)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(39, 18)
+        Me.Label8.TabIndex = 40
+        Me.Label8.Text = "Label8"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(409, 240)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(39, 18)
+        Me.Label9.TabIndex = 41
+        Me.Label9.Text = "Label9"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(542, 240)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(45, 18)
+        Me.Label10.TabIndex = 42
+        Me.Label10.Text = "Label10"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(666, 72)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(45, 18)
+        Me.Label11.TabIndex = 43
+        Me.Label11.Text = "Label11"
+        '
         'frmSimple
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(846, 469)
+        Me.ClientSize = New System.Drawing.Size(846, 565)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnPhotoBrowse)
         Me.Controls.Add(Me.txtPhotoAddress)
         Me.Controls.Add(Me.btnSearch)
@@ -342,5 +463,16 @@ Partial Class frmSimple
     Friend WithEvents FileInfoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents txtPhotoAddress As System.Windows.Forms.TextBox
     Friend WithEvents btnPhotoBrowse As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
 
 End Class
