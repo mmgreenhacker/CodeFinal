@@ -50,45 +50,53 @@ Public Class frmSimple
         Dim lstBat As New List(Of String)
         Dim lstPic As New List(Of String)
         Dim sPath As String = ""
+        Try
+            lstCdID = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "cdid")
+            lstCdName = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "cdname")
+            lstDIR = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "dir")
+            lstPh = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "ph")
+            lstFb = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "fb")
+            lstAddress = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "address")
+            lstBat = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "bat")
+            lstCom = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "com")
+            lstPic = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "pic")
 
-        lstCdID = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "cdid")
-        lstCdName = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "cdname")
-        lstDIR = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "dir")
-        lstPh = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "ph")
-        lstFb = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "fb")
-        lstAddress = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "address")
-        lstBat = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "bat")
-        lstCom = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "com")
-        lstPic = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "pic")
+            If lstCdID.Count = 0 Then
+                MessageBox.Show("No data return!")
+                Exit Sub
+            End If
+            For Each sresult1 In lstCdName
+                ListBox1.Items.Add(sresult1)
+            Next
+            For Each sresult2 In lstCdID
+                ListBox2.Items.Add(sresult2)
+            Next
+            For Each sresult3 In lstDIR
+                ListBox3.Items.Add(sresult3)
+            Next
+            For Each sresult4 In lstPh
+                ListBox4.Items.Add(sresult4)
+            Next
+            For Each sresult5 In lstFb
+                ListBox5.Items.Add(sresult5)
+            Next
+            For Each sresult6 In lstAddress
+                ListBox6.Items.Add(sresult6)
+            Next
+            For Each sresult7 In lstBat
+                ListBox7.Items.Add(sresult7)
+            Next
+            For Each sresult8 In lstCom
+                ListBox8.Items.Add(sresult8)
+            Next
+            For Each sresult9 In lstPic
+                ListBox9.Items.Add(sresult9)
+            Next
+            ListBox1.SelectedIndex = 0
 
-        For Each sresult1 In lstCdName
-            ListBox1.Items.Add(sresult1)
-        Next
-        For Each sresult2 In lstCdID
-            ListBox2.Items.Add(sresult2)
-        Next
-        For Each sresult3 In lstDIR
-            ListBox3.Items.Add(sresult3)
-        Next
-        For Each sresult4 In lstPh
-            ListBox4.Items.Add(sresult4)
-        Next
-        For Each sresult5 In lstFb
-            ListBox5.Items.Add(sresult5)
-        Next
-        For Each sresult6 In lstAddress
-            ListBox6.Items.Add(sresult6)
-        Next
-        For Each sresult7 In lstBat
-            ListBox7.Items.Add(sresult7)
-        Next
-        For Each sresult8 In lstCom
-            ListBox8.Items.Add(sresult8)
-        Next
-        For Each sresult9 In lstPic
-            ListBox9.Items.Add(sresult9)
-        Next
-        ListBox1.SelectedIndex = 0
+        Catch ex As Exception
+            MessageBox.Show(ex.ToString())
+        End Try
     End Sub
     Private Sub btnLastTest_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnLastTest.Click
         Dim lstFList As New List(Of String)
@@ -108,7 +116,8 @@ Public Class frmSimple
         ProgressBar1.Value = 0
 
         modSQLite.CreateDatabase(modSQLite.CONNECTION_STR, modSQLite.CREATE_COMMAND_STR)
-        FolderBrowserDialog1.RootFolder = Environment.SpecialFolder.Desktop 'Application.StartupPath. 
+        FolderBrowserDialog1.SelectedPath = Application.StartupPath
+        'FolderBrowserDialog1.RootFolder = Environment.SpecialFolder.Desktop 'Application.StartupPath. 
         If FolderBrowserDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
             sPath = FolderBrowserDialog1.SelectedPath.ToString()
             lstFList = modDirAndFile.ProcessDirectory(sPath) '(Application.StartupPath + "\Data")
@@ -277,9 +286,12 @@ Public Class frmSimple
     Private Sub btnSearch_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSearch.Click
         Dim sSearch As String = ""
         sSearch = txtSearch.Text.ToString()
-        If ListBox1.Items.Contains(sSearch) Then
-            ListBox1.SelectedIndex = ListBox1.FindStringExact(sSearch)
+        If sSearch <> "" Then
+            If ListBox1.Items.Contains(sSearch) Then
+                ListBox1.SelectedIndex = ListBox1.FindStringExact(sSearch)
+            End If
         End If
+
     End Sub
 
     Private Sub FileInfoToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FileInfoToolStripMenuItem.Click
@@ -309,4 +321,7 @@ Public Class frmSimple
     End Sub
 
 
+    Private Sub btnPhotoBrowse_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPhotoBrowse.Click
+
+    End Sub
 End Class
