@@ -57,7 +57,7 @@ Public Class frmSimple
             lstPh = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "ph")
             lstFb = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "fb")
             '######### TO DO
-            'lstMaj = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "maj")
+            lstMaj = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "maj")
             '#########
             lstAddress = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "address")
             lstBat = modSQLite.ReadDatabase(modSQLite.CONNECTION_STR, modSQLite.TABLE_STR, "bat")
