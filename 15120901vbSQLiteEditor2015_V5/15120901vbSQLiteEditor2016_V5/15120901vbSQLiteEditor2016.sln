@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "15120401vbSQLiteEditor2016", "14110202vbSQLiteEditor2015\15120401vbSQLiteEditor2016.vbproj", "{413A98BC-4DEA-40B7-9DF6-C3189F7C8983}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "15120901vbSQLiteEditor2016", "14110202vbSQLiteEditor2015\15120901vbSQLiteEditor2016.vbproj", "{413A98BC-4DEA-40B7-9DF6-C3189F7C8983}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
