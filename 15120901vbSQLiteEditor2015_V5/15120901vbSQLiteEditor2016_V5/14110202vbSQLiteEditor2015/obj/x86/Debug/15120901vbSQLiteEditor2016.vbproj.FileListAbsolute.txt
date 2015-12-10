@@ -1,0 +1,3 @@
+L:\Students\CodeFinal\15120901vbSQLiteEditor2015_V5\15120901vbSQLiteEditor2016_V5\14110202vbSQLiteEditor2015\obj\x86\Debug\14110202vbSQLiteEditor2015.exe
+L:\Students\CodeFinal\15120901vbSQLiteEditor2015_V5\15120901vbSQLiteEditor2016_V5\14110202vbSQLiteEditor2015\obj\x86\Debug\14110202vbSQLiteEditor2015.xml
+L:\Students\CodeFinal\15120901vbSQLiteEditor2015_V5\15120901vbSQLiteEditor2016_V5\14110202vbSQLiteEditor2015\obj\x86\Debug\14110202vbSQLiteEditor2015.pdb
