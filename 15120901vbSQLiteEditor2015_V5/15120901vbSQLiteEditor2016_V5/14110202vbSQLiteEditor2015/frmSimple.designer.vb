@@ -59,6 +59,11 @@ Partial Class frmSimple
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.ListBox10 = New System.Windows.Forms.ListBox()
+        Me.btnCheckData = New System.Windows.Forms.Button()
+        Me.cboCheckData = New System.Windows.Forms.ComboBox()
+        Me.txtError = New System.Windows.Forms.TextBox()
+        Me.btnSaveError = New System.Windows.Forms.Button()
+        Me.btnClearAllList = New System.Windows.Forms.Button()
         CType(Me.picCadet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -143,18 +148,18 @@ Partial Class frmSimple
         '
         'btnChangeFileName
         '
-        Me.btnChangeFileName.Location = New System.Drawing.Point(347, 477)
+        Me.btnChangeFileName.Location = New System.Drawing.Point(598, 477)
         Me.btnChangeFileName.Name = "btnChangeFileName"
-        Me.btnChangeFileName.Size = New System.Drawing.Size(148, 45)
+        Me.btnChangeFileName.Size = New System.Drawing.Size(77, 45)
         Me.btnChangeFileName.TabIndex = 16
         Me.btnChangeFileName.Text = "Change file name"
         Me.btnChangeFileName.UseVisualStyleBackColor = True
         '
         'btnBrowseAndAdd
         '
-        Me.btnBrowseAndAdd.Location = New System.Drawing.Point(514, 477)
+        Me.btnBrowseAndAdd.Location = New System.Drawing.Point(506, 477)
         Me.btnBrowseAndAdd.Name = "btnBrowseAndAdd"
-        Me.btnBrowseAndAdd.Size = New System.Drawing.Size(148, 45)
+        Me.btnBrowseAndAdd.Size = New System.Drawing.Size(77, 45)
         Me.btnBrowseAndAdd.TabIndex = 18
         Me.btnBrowseAndAdd.Text = "Browse and Add Data"
         Me.btnBrowseAndAdd.UseVisualStyleBackColor = True
@@ -210,10 +215,11 @@ Partial Class frmSimple
         'lstError
         '
         Me.lstError.FormattingEnabled = True
+        Me.lstError.HorizontalScrollbar = True
         Me.lstError.ItemHeight = 18
         Me.lstError.Location = New System.Drawing.Point(669, 91)
         Me.lstError.Name = "lstError"
-        Me.lstError.Size = New System.Drawing.Size(164, 130)
+        Me.lstError.Size = New System.Drawing.Size(564, 130)
         Me.lstError.TabIndex = 25
         '
         'picCadet
@@ -253,7 +259,7 @@ Partial Class frmSimple
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(846, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1287, 24)
         Me.MenuStrip1.TabIndex = 30
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -405,11 +411,61 @@ Partial Class frmSimple
         Me.ListBox10.Size = New System.Drawing.Size(109, 130)
         Me.ListBox10.TabIndex = 44
         '
+        'btnCheckData
+        '
+        Me.btnCheckData.Location = New System.Drawing.Point(70, 568)
+        Me.btnCheckData.Name = "btnCheckData"
+        Me.btnCheckData.Size = New System.Drawing.Size(144, 42)
+        Me.btnCheckData.TabIndex = 46
+        Me.btnCheckData.Text = "Check Data"
+        Me.btnCheckData.UseVisualStyleBackColor = True
+        '
+        'cboCheckData
+        '
+        Me.cboCheckData.FormattingEnabled = True
+        Me.cboCheckData.Items.AddRange(New Object() {"8", "11"})
+        Me.cboCheckData.Location = New System.Drawing.Point(10, 577)
+        Me.cboCheckData.Name = "cboCheckData"
+        Me.cboCheckData.Size = New System.Drawing.Size(54, 26)
+        Me.cboCheckData.TabIndex = 47
+        Me.cboCheckData.Text = "8"
+        '
+        'txtError
+        '
+        Me.txtError.Location = New System.Drawing.Point(802, 262)
+        Me.txtError.Multiline = True
+        Me.txtError.Name = "txtError"
+        Me.txtError.Size = New System.Drawing.Size(473, 130)
+        Me.txtError.TabIndex = 48
+        '
+        'btnSaveError
+        '
+        Me.btnSaveError.Location = New System.Drawing.Point(1244, 88)
+        Me.btnSaveError.Name = "btnSaveError"
+        Me.btnSaveError.Size = New System.Drawing.Size(31, 57)
+        Me.btnSaveError.TabIndex = 49
+        Me.btnSaveError.Text = "Sv"
+        Me.btnSaveError.UseVisualStyleBackColor = True
+        '
+        'btnClearAllList
+        '
+        Me.btnClearAllList.Location = New System.Drawing.Point(1244, 164)
+        Me.btnClearAllList.Name = "btnClearAllList"
+        Me.btnClearAllList.Size = New System.Drawing.Size(31, 57)
+        Me.btnClearAllList.TabIndex = 50
+        Me.btnClearAllList.Text = "Cl"
+        Me.btnClearAllList.UseVisualStyleBackColor = True
+        '
         'frmSimple
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(846, 565)
+        Me.ClientSize = New System.Drawing.Size(1287, 637)
+        Me.Controls.Add(Me.btnClearAllList)
+        Me.Controls.Add(Me.btnSaveError)
+        Me.Controls.Add(Me.txtError)
+        Me.Controls.Add(Me.cboCheckData)
+        Me.Controls.Add(Me.btnCheckData)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.ListBox10)
         Me.Controls.Add(Me.Label11)
@@ -499,5 +555,10 @@ Partial Class frmSimple
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents ListBox10 As System.Windows.Forms.ListBox
+    Friend WithEvents btnCheckData As System.Windows.Forms.Button
+    Friend WithEvents cboCheckData As System.Windows.Forms.ComboBox
+    Friend WithEvents txtError As System.Windows.Forms.TextBox
+    Friend WithEvents btnSaveError As System.Windows.Forms.Button
+    Friend WithEvents btnClearAllList As System.Windows.Forms.Button
 
 End Class

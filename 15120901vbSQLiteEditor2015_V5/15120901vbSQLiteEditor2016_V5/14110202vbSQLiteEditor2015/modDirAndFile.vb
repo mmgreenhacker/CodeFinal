@@ -20,7 +20,7 @@ Module modDirAndFile
                         currentLineOfText = tfp.ReadFields()
                         If currentLineOfText.Length <> 10 Then
 
-                            MessageBox.Show(textFilePath)
+                            'MessageBox.Show(textFilePath)
                             
                         End If
                         Return currentLineOfText

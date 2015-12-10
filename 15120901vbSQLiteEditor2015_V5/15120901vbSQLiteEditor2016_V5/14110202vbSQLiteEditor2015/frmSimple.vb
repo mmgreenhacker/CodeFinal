@@ -138,10 +138,10 @@ Public Class frmSimple
                 sDataArray = modDirAndFile.ReadInputFile(sfname, "-")
 
                 '#####
-                If sDataArray.Length <> 11 Then 'Or sDataArray(10) <> sfname
-                    AppendPic(sfname)
-                    sDataArray = modDirAndFile.ReadInputFile(sfname, "-")
-                End If
+                'If sDataArray.Length <> 11 Then 'Or sDataArray(10) <> sfname
+                '    AppendPic(sfname)
+                '    sDataArray = modDirAndFile.ReadInputFile(sfname, "-")
+                'End If
                 '#####
 
                 For Each sdata In sDataArray
@@ -392,4 +392,60 @@ Public Class frmSimple
 
 
 
+
+    Private Sub btnCheckData_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnCheckData.Click
+        Dim lstFList As New List(Of String)
+        Dim bStatus As Boolean = True
+        Dim sPath As String = ""
+        Dim sDataArray As String()
+        Dim sErrorFname As New List(Of String)
+        Dim iCounter As Integer = 0
+        Dim sErrorMessage As String = ""
+        Dim iLength As Integer = 0
+        FolderBrowserDialog1.SelectedPath = Application.StartupPath
+        'FolderBrowserDialog1.RootFolder = Environment.SpecialFolder.Desktop 'Application.StartupPath. 
+        If FolderBrowserDialog1.ShowDialog = Windows.Forms.DialogResult.OK Then
+            sPath = FolderBrowserDialog1.SelectedPath.ToString()
+            lstFList = modDirAndFile.ProcessDirectory(sPath) '(Application.StartupPath + "\Data")
+            For Each sfname In lstFList
+                sDataArray = modDirAndFile.ReadInputFile(sfname, "-")
+                iLength = sDataArray.Length
+                If sDataArray.Length <> Integer.Parse(cboCheckData.SelectedItem.ToString()) Then
+                    lstError.Items.Add(sfname) 'error ရွိတဲ႔ ဖိုင္နာမည္ကို lstError မွာ စုျပခိုင္းတာ
+                    Shell("notepad " + sfname)
+                    bStatus = False
+                    sErrorFname.Add(sfname)  '(iCounter) += sfname
+                    iCounter = iCounter + 1
+                    sErrorMessage = sErrorMessage + iCounter.ToString() + "  " + "in file  " + sfname + " The items does not equal check value" + cboCheckData.SelectedItem.ToString() +
+                                                " but actually " + iLength.ToString() + vbCrLf
+                    For Each item In sDataArray
+                        ' sErrorMessage = sErrorMessage + item + "#" 'အထဲမွာ ပါတဲ႔ items ေတြကို အေသးစိတ္ ၾကည္႔ခ်င္ရင္ သံုးႏိုင္တယ္
+                    Next
+                    sErrorMessage = sErrorMessage + vbCrLf + vbCrLf
+                End If
+
+            Next
+        End If
+
+
+        If bStatus = False Then
+            MessageBox.Show(sErrorMessage)
+
+        Else
+            MessageBox.Show("Great News! PASSSSS")
+        End If
+
+    End Sub
+
+
+    Private Sub btnSaveError_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSaveError.Click
+        For Each item In lstError.Items
+            modDirAndFile.AppendFileData("D:\errorFlist.txt", item.ToString() + vbCrLf)
+        Next
+
+    End Sub
+
+    Private Sub btnClearAllList_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClearAllList.Click
+        lstError.Items.Clear()
+    End Sub
 End Class
