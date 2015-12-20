@@ -58,6 +58,7 @@ Module modSQLite
     End Function
 
     Public Function InsertListIntoDatabase(ByVal sData As List(Of String)) As Boolean
+        
         Dim objConn As SQLiteConnection
         Dim objCommand As SQLiteCommand
         If sData.Count <> 11 Then 'ေမဂ်ာပါ  ပါရင္ ၁၁ ခု ပထမဆံုး တစ္ခုက အလြတ္ထားတာ ေနာက္ဆံုးက ဖိုင္နာမည္ ျဖစ္ရမယ္

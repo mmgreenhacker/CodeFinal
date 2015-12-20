@@ -24,7 +24,7 @@ import android.text.TextWatcher;
 
 public class SearchActivity extends Activity {
 	int iPosition=0;
-	String sTitle="17th Intake Book Search Engine";
+	String sTitle="18th Intake Book Search Engine";
 	String sQuery;
 	ListView lstSEARCH;
 	SQLiteConnector sqlConnect;

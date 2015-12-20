@@ -64,6 +64,7 @@ Partial Class frmSimple
         Me.txtError = New System.Windows.Forms.TextBox()
         Me.btnSaveError = New System.Windows.Forms.Button()
         Me.btnClearAllList = New System.Windows.Forms.Button()
+        Me.txtCount = New System.Windows.Forms.TextBox()
         CType(Me.picCadet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -456,11 +457,20 @@ Partial Class frmSimple
         Me.btnClearAllList.Text = "Cl"
         Me.btnClearAllList.UseVisualStyleBackColor = True
         '
+        'txtCount
+        '
+        Me.txtCount.Location = New System.Drawing.Point(861, 31)
+        Me.txtCount.Name = "txtCount"
+        Me.txtCount.Size = New System.Drawing.Size(88, 25)
+        Me.txtCount.TabIndex = 51
+        Me.txtCount.Text = "0"
+        '
         'frmSimple
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1287, 637)
+        Me.Controls.Add(Me.txtCount)
         Me.Controls.Add(Me.btnClearAllList)
         Me.Controls.Add(Me.btnSaveError)
         Me.Controls.Add(Me.txtError)
@@ -560,5 +570,6 @@ Partial Class frmSimple
     Friend WithEvents txtError As System.Windows.Forms.TextBox
     Friend WithEvents btnSaveError As System.Windows.Forms.Button
     Friend WithEvents btnClearAllList As System.Windows.Forms.Button
+    Friend WithEvents txtCount As System.Windows.Forms.TextBox
 
 End Class

@@ -1,10 +1,10 @@
 <resources>
 
-    <string name="app_name">D.S.T.A 17th Intake</string>
+    <string name="app_name">D.S.T.A 18th Intake</string>
     <string name="dev_name">Developed by Dr. Aung Win Htut (bluephoenix)</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_cadet_ibook_splash">D.S.T.A 17th Intake</string>
+    <string name="title_activity_cadet_ibook_splash">D.S.T.A 18th Intake</string>
     <string name="title_activity_cadet_ibook_main">MainActivity</string>
     <string name="title_activity_cadet_ibook_any">CadetIBookANYActivity</string>
     <string name="title_activity_cadet_ibook_byn">CadetIBookBYNActivity</string>

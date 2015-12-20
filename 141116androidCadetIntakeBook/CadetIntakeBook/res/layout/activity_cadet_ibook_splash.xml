@@ -43,7 +43,7 @@
             android:shadowColor="#a72cda"
             android:lineSpacingExtra="5dp"
             android:layout_weight="0.07"
-            android:text="D.S.T.A 17th Intake"
+            android:text="D.S.T.A 18th Intake"
             android:textAppearance="?android:attr/textAppearanceLarge" />
          <LinearLayout 
              android:layout_width="match_parent"
