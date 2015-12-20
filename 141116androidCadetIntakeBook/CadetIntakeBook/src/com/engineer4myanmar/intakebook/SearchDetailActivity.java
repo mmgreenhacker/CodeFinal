@@ -67,7 +67,9 @@ public class SearchDetailActivity extends Activity {
         System.out.println("adapters OK");
        
         int j = getResources().getIdentifier(adapter8.getItem(adapter1.getPosition(sCadetName)).toLowerCase(), "drawable", getPackageName());
-        imgPhoto.setImageDrawable(getResources().getDrawable(j));     
+        //##############
+       // imgPhoto.setImageDrawable(getResources().getDrawable(j));     
+        //##############
         System.out.println("Photo OK");
         tvTitleDetail.setText(sCadetName);
         System.out.println("Title OK");
