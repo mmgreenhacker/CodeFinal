@@ -448,4 +448,8 @@ Public Class frmSimple
     Private Sub btnClearAllList_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnClearAllList.Click
         lstError.Items.Clear()
     End Sub
+
+    Private Sub txtCheckcount_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtCheckcount.Click
+        MessageBox.Show("1-" + ListBox1.Items.Count.ToString() + "-2-" + ListBox2.Items.Count.ToString() + "-3-" + ListBox3.Items.Count.ToString() + "-4-" + ListBox4.Items.Count.ToString() + "-5-" + ListBox5.Items.Count.ToString() + "-6-" + ListBox6.Items.Count.ToString() + "-7-" + ListBox7.Items.Count.ToString() + "-8-" + ListBox8.Items.Count.ToString() + "-9-" + ListBox9.Items.Count.ToString() + "-10-" + ListBox10.Items.Count.ToString())
+    End Sub
 End Class

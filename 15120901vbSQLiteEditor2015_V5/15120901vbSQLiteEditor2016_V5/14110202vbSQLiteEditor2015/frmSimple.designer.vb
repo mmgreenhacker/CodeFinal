@@ -65,6 +65,7 @@ Partial Class frmSimple
         Me.btnSaveError = New System.Windows.Forms.Button()
         Me.btnClearAllList = New System.Windows.Forms.Button()
         Me.txtCount = New System.Windows.Forms.TextBox()
+        Me.txtCheckcount = New System.Windows.Forms.Button()
         CType(Me.picCadet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -465,11 +466,21 @@ Partial Class frmSimple
         Me.txtCount.TabIndex = 51
         Me.txtCount.Text = "0"
         '
+        'txtCheckcount
+        '
+        Me.txtCheckcount.Location = New System.Drawing.Point(872, 427)
+        Me.txtCheckcount.Name = "txtCheckcount"
+        Me.txtCheckcount.Size = New System.Drawing.Size(147, 37)
+        Me.txtCheckcount.TabIndex = 52
+        Me.txtCheckcount.Text = "Check Count"
+        Me.txtCheckcount.UseVisualStyleBackColor = True
+        '
         'frmSimple
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 18.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1287, 637)
+        Me.Controls.Add(Me.txtCheckcount)
         Me.Controls.Add(Me.txtCount)
         Me.Controls.Add(Me.btnClearAllList)
         Me.Controls.Add(Me.btnSaveError)
@@ -571,5 +582,6 @@ Partial Class frmSimple
     Friend WithEvents btnSaveError As System.Windows.Forms.Button
     Friend WithEvents btnClearAllList As System.Windows.Forms.Button
     Friend WithEvents txtCount As System.Windows.Forms.TextBox
+    Friend WithEvents txtCheckcount As System.Windows.Forms.Button
 
 End Class
