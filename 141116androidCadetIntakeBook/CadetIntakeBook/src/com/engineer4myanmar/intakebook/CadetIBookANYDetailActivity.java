@@ -86,7 +86,11 @@ TextView tvTitleDetail = (TextView)findViewById(R.id.tvTitleDetail );
         System.out.println("adapters OK");
        
         int j = getResources().getIdentifier(adapter8.getItem(adapter1.getPosition(sCadetName)).toLowerCase(), "drawable", getPackageName());
+        System.out.println(j);
+        System.out.println(getResources().getDrawable(j));
         imgPhoto.setImageDrawable(getResources().getDrawable(j));     
+        System.out.println(j);
+        System.out.println(getResources().getDrawable(j));
         System.out.println("Photo OK");
         tvTitleDetail.setText(sCadetName);
         System.out.println("Title OK");
