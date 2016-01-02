@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:shadowColor="#a72cda"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="ရုရွ"
+        android:textColor="#009900"
+        android:textSize="34dip" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="ေရဒါ"
+        android:textColor="#fff"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/radar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="ေလယာဥ္ပစ္အေျမာက္"
+        android:textColor="#fff"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/gun1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="ေလယာဥ္ပစ္ဒံုး"
+        android:textColor="#fff"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/missile1" />
+    
+
+</LinearLayout>

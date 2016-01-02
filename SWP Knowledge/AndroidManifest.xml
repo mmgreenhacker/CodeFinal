@@ -1,0 +1,116 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swp.knowledge"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".AirActivity"
+            android:label="@string/title_activity_air" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SupercActivity"
+            android:label="@string/title_activity_superc" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AsiaActivity"
+            android:label="@string/title_activity_asia" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.MainActivity" />
+        </activity>
+        <activity
+            android:name=".USAActivity"
+            android:label="@string/title_activity_usa" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.SupercActivity" />
+        </activity>
+        <activity
+            android:name=".RUActivity"
+            android:label="@string/title_activity_ru" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.SupercActivity" />
+        </activity>
+        <activity
+            android:name=".IranActivity"
+            android:label="@string/title_activity_iran" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.SupercActivity" />
+        </activity>
+        <activity
+            android:name=".IsraelActivity"
+            android:label="@string/title_activity_israel" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.SupercActivity" />
+        </activity>
+        <activity
+            android:name=".ChinaActivity"
+            android:label="@string/title_activity_china" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.AsiaActivity" />
+        </activity>
+        <activity
+            android:name=".IndiaActivity"
+            android:label="@string/title_activity_india" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.AsiaActivity" />
+        </activity>
+        <activity
+            android:name=".ThailandActivity"
+            android:label="@string/title_activity_thailand" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.AsiaActivity" />
+        </activity>
+        <activity
+            android:name=".LaosActivity"
+            android:label="@string/title_activity_laos" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.AsiaActivity" />
+        </activity>
+        <activity
+            android:name=".BangladeshActivity"
+            android:label="@string/title_activity_bangladesh" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.AsiaActivity" />
+        </activity>
+    </application>
+
+</manifest>

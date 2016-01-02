@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SWP Knowledge</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_login">SWP Knowledge</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_air">AirActivity</string>
+    <string name="title_activity_superc">SupercActivity</string>
+    <string name="title_activity_asia">AsiaActivity</string>
+    <string name="title_activity_usa">USAActivity</string>
+    <string name="title_activity_ru">RUActivity</string>
+    <string name="title_activity_iran">IranActivity</string>
+    <string name="title_activity_israel">IsraelActivity</string>
+    <string name="title_activity_china">ChinaActivity</string>
+    <string name="title_activity_india">IndiaActivity</string>
+    <string name="title_activity_thailand">ThailandActivity</string>
+    <string name="title_activity_laos">LaosActivity</string>
+    <string name="title_activity_bangladesh">BangladeshActivity</string> 
+
+</resources>

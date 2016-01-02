@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="1dp"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:shadowColor="#a72cda"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="5"
+        android:text="အင္အားႀကီးႏိုင္ငံမ်ား"
+        android:textColor="#009900"
+        android:textSize="34dip" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="အေမရိကန္"
+        android:textColor="#fff"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/usa" 
+        android:onClick="funUSA"
+        />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="ရုရွား"
+        android:textColor="#fff"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/ru" 
+        android:onClick="funRU"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="အစၥေရး"
+        android:textColor="#fff"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:onClick="funIsrael"
+        android:src="@drawable/israel" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="အီရန္"
+        android:textColor="#fff"
+        android:textSize="20dip" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:onClick="funIran"
+        android:src="@drawable/iran" />
+
+</LinearLayout>
