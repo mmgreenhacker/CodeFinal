@@ -30,7 +30,7 @@ public class CadetIBookANYListActivity extends Activity {
 	SQLiteConnector sqlConnect;
 	private static final String TABLE_RECORD = "cadettb";
 	public final static String EXTRA_MESSAGE_ANYDETAIL="com.engineer4myanmar.intakebook.ANYDETAIL";
-	public String selectQueryb1 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၁)တပ္ခြဲ' and bat='အေနာ္ရထာတပ္ရင္း'";
+	public String selectQueryb1 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၁)တပ္ခြဲ' and bat='အေနာ္ရထာတပ္ရင္း' ";
 	public String selectQueryb2 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၂)တပ္ခြဲ' and bat='အေနာ္ရထာတပ္ရင္း'";
 	public String selectQueryb3 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၃)တပ္ခြဲ' and bat='အေနာ္ရထာတပ္ရင္း'";
 	public String selectQueryb4 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၄)တပ္ခြဲ' and bat='အေနာ္ရထာတပ္ရင္း'";

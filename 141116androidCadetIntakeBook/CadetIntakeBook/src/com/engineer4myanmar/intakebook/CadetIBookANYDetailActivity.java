@@ -85,12 +85,12 @@ TextView tvTitleDetail = (TextView)findViewById(R.id.tvTitleDetail );
         System.out.println(adapter8.getItem(adapter1.getPosition(sCadetName)));
         System.out.println("adapters OK");
        
-        int j = getResources().getIdentifier(adapter8.getItem(adapter1.getPosition(sCadetName)).toLowerCase(), "drawable", getPackageName());
-        System.out.println(j);
-        System.out.println(getResources().getDrawable(j));
-        imgPhoto.setImageDrawable(getResources().getDrawable(j));     
-        System.out.println(j);
-        System.out.println(getResources().getDrawable(j));
+       // int j = getResources().getIdentifier(adapter8.getItem(adapter1.getPosition(sCadetName)).toLowerCase(), "drawable", getPackageName());
+        //System.out.println(j);
+        //System.out.println(getResources().getDrawable(j));
+        //imgPhoto.setImageDrawable(getResources().getDrawable(j));     
+        //System.out.println(j);
+        //System.out.println(getResources().getDrawable(j));
         System.out.println("Photo OK");
         tvTitleDetail.setText(sCadetName);
         System.out.println("Title OK");
@@ -100,10 +100,10 @@ TextView tvTitleDetail = (TextView)findViewById(R.id.tvTitleDetail );
         etPhone.setText(adapter3.getItem(adapter1.getPosition(sCadetName)));
         sPhoneNumber = adapter3.getItem(adapter1.getPosition(sCadetName));
         etFb.setText(adapter4.getItem(adapter1.getPosition(sCadetName)));
-        etMaj.setText("Data Not Available");//adapter5.getItem(adapter1.getPosition(sCadetName)));
-        etAddress.setText(adapter5.getItem(adapter1.getPosition(sCadetName)));
-        etCom.setText(adapter6.getItem(adapter1.getPosition(sCadetName)));
-        etBat.setText(adapter7.getItem(adapter1.getPosition(sCadetName)));
+        etMaj.setText(adapter5.getItem(adapter1.getPosition(sCadetName)));
+        etAddress.setText(adapter6.getItem(adapter1.getPosition(sCadetName)));
+        etCom.setText(adapter7.getItem(adapter1.getPosition(sCadetName)));
+        etBat.setText(adapter8.getItem(adapter1.getPosition(sCadetName)));
         System.out.println(adapter8.getItem(adapter1.getPosition(sCadetName)));        
      
     }

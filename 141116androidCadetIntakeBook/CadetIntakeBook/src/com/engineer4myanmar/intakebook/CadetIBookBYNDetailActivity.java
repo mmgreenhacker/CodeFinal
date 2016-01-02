@@ -60,13 +60,12 @@ public class CadetIBookBYNDetailActivity extends Activity {
 				android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(8));
         final ArrayAdapter<String> adapter8 = new ArrayAdapter<String>(this,
 				android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(9));
-        //final ArrayAdapter<String> adapter9 = new ArrayAdapter<String>(this,
-		//		android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(10));
+       
         System.out.println(adapter8.getItem(adapter1.getPosition(sCadetName)));
         System.out.println("adapters OK");
        
-        int j = getResources().getIdentifier(adapter8.getItem(adapter1.getPosition(sCadetName)).toLowerCase(), "drawable", getPackageName());
-        imgPhoto.setImageDrawable(getResources().getDrawable(j));     
+        //int j = getResources().getIdentifier(adapter8.getItem(adapter1.getPosition(sCadetName)).toLowerCase(), "drawable", getPackageName());
+       // imgPhoto.setImageDrawable(getResources().getDrawable(j));     
         System.out.println("Photo OK");
         tvTitleDetail.setText(sCadetName);
         System.out.println("Title OK");
@@ -76,10 +75,10 @@ public class CadetIBookBYNDetailActivity extends Activity {
         etPhone.setText(adapter3.getItem(adapter1.getPosition(sCadetName)));
         sPhoneNumber = adapter3.getItem(adapter1.getPosition(sCadetName));
         etFb.setText(adapter4.getItem(adapter1.getPosition(sCadetName)));
-        etMaj.setText("Data Not Available");//adapter5.getItem(adapter1.getPosition(sCadetName)));
-        etAddress.setText(adapter5.getItem(adapter1.getPosition(sCadetName)));
-        etCom.setText(adapter6.getItem(adapter1.getPosition(sCadetName)));
-        etBat.setText(adapter7.getItem(adapter1.getPosition(sCadetName)));
+        etMaj.setText(adapter5.getItem(adapter1.getPosition(sCadetName)));
+        etAddress.setText(adapter6.getItem(adapter1.getPosition(sCadetName)));
+        etCom.setText(adapter7.getItem(adapter1.getPosition(sCadetName)));
+        etBat.setText(adapter8.getItem(adapter1.getPosition(sCadetName)));
         System.out.println(adapter8.getItem(adapter1.getPosition(sCadetName)));
         
      

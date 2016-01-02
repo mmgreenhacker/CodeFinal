@@ -34,9 +34,9 @@ public class CadetIBookBYNListActivity extends Activity {
 	public final static String EXTRA_MESSAGE_BYN="com.engineer4myanmar.intakebook.BYNDETAIL";
 	public String selectQueryb1 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၁)တပ္ခြဲ' and bat='ဘုရင္႔ေနာင္တပ္ရင္း'";
 	public String selectQueryb2 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၂)တပ္ခြဲ' and bat='ဘုရင္႔ေနာင္တပ္ရင္း'";
-	public String selectQueryb3 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၃)တပ္ခြဲ' and bat='ဘုရင္႔ေနာင္တပ္ရင္း'";
-	public String selectQueryb4 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၄)တပ္ခြဲ' and bat='ဘုရင္႔ေနာင္တပ္ရင္း'";
-	public String selectQueryb5 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၅)တပ္ခြဲ' and bat='ဘုရင္႔ေနာင္တပ္ရင္း'";
+	public String selectQueryb3 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၃)တပ္ခြဲ' and (bat='ဘုရင့္ေနာင္တပ္ရင္း' or bat='ဘုရင္႔ေနာင္တပ္ရင္း')" ;
+	public String selectQueryb4 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၄)တပ္ခြဲ' and (bat='ဘုရင့္ေနာင္တပ္ရင္း' or bat='ဘုရင္႔ေနာင္တပ္ရင္း')" ;
+	public String selectQueryb5 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၅)တပ္ခြဲ' and (bat='ဘုရင့္ေနာင္တပ္ရင္း' or bat='ဘုရင္႔ေနာင္တပ္ရင္း')" ;
 	//public String selectQueryb6 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၆)တပ္ခြဲ' and bat='ဘုရင္႔ေနာင္တပ္ရင္း'";
 	//public String selectQueryb7 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၇)တပ္ခြဲ' and bat='ဘုရင္႔ေနာင္တပ္ရင္း'";
 	//public String selectQueryb8 = "SELECT  * FROM " + TABLE_RECORD+" where com='အမွတ္(၈)တပ္ခြဲ' and bat='ဘုရင္႔ေနာင္တပ္ရင္း'";
@@ -71,7 +71,10 @@ public class CadetIBookBYNListActivity extends Activity {
       		//collect all names
       		final ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(this,
       				android.R.layout.simple_list_item_1, sqlConnect.getGroupRecord(2, sQuery));//getAllRecord(2)); // 2 is column number (zero base)
-      			
+      		if(adapter2.isEmpty())
+      		{
+      			Log.e("empty","no data");
+      		}
       		lstBNY.setAdapter(adapter2);		
       		
       		//Searchable EditText and ListView pair
