@@ -58,7 +58,7 @@
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
             android:background="#1223cd"
-            android:onClick="funBYN"
+            android:onClick="funSearch"
             android:text="ဘုရင္႔ေနာင္ တပ္ရင္း"
             />
       <Button
@@ -68,7 +68,7 @@
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
             android:background="#ec1f3c"
-            android:onClick="funANY"
+            android:onClick="funSearch"
             android:text="အေနာ္ရထာတပ္ရင္း" />
          
     </LinearLayout>

@@ -61,8 +61,10 @@ public class SearchDetailActivity extends Activity {
 				android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(8));
         final ArrayAdapter<String> adapter8 = new ArrayAdapter<String>(this,
 				android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(9));
-        //final ArrayAdapter<String> adapter9 = new ArrayAdapter<String>(this,
-		//		android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(10));
+        final ArrayAdapter<String> adapter9 = new ArrayAdapter<String>(this,
+				android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(10));
+        //final ArrayAdapter<String> adapter10 = new ArrayAdapter<String>(this,
+		//		android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(11));
         System.out.println(adapter8.getItem(adapter1.getPosition(sCadetName)));
         System.out.println("adapters OK");
        
@@ -79,10 +81,10 @@ public class SearchDetailActivity extends Activity {
         etPhone.setText(adapter3.getItem(adapter1.getPosition(sCadetName)));
         sPhoneNumber = adapter3.getItem(adapter1.getPosition(sCadetName));
         etFb.setText(adapter4.getItem(adapter1.getPosition(sCadetName)));
-        etMaj.setText("Data is Not Available");//adapter5.getItem(adapter1.getPosition(sCadetName)));
-        etAddress.setText(adapter5.getItem(adapter1.getPosition(sCadetName)));
-        etCom.setText(adapter6.getItem(adapter1.getPosition(sCadetName)));
-        etBat.setText(adapter7.getItem(adapter1.getPosition(sCadetName)));
+        etMaj.setText(adapter5.getItem(adapter1.getPosition(sCadetName)));//adapter5.getItem(adapter1.getPosition(sCadetName)));
+        etAddress.setText(adapter6.getItem(adapter1.getPosition(sCadetName)));
+        etCom.setText(adapter7.getItem(adapter1.getPosition(sCadetName)));
+        etBat.setText(adapter8.getItem(adapter1.getPosition(sCadetName)));
         System.out.println(adapter8.getItem(adapter1.getPosition(sCadetName)));        
      
     }
