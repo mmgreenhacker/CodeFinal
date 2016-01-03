@@ -80,15 +80,15 @@ TextView tvTitleDetail = (TextView)findViewById(R.id.tvTitleDetail );
         System.out.println("adapters8 OK");
         System.out.println(adapter7.getItem(adapter1.getPosition(sCadetName)));
         System.out.println(adapter8.getItem(adapter1.getPosition(sCadetName)));
-       // final ArrayAdapter<String> adapter9 = new ArrayAdapter<String>(this,
-		//		android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(10));
+        final ArrayAdapter<String> adapter9 = new ArrayAdapter<String>(this,
+			android.R.layout.simple_list_item_1, sqlConnect.getAllRecord(10));
         System.out.println(adapter8.getItem(adapter1.getPosition(sCadetName)));
         System.out.println("adapters OK");
        
-       // int j = getResources().getIdentifier(adapter8.getItem(adapter1.getPosition(sCadetName)).toLowerCase(), "drawable", getPackageName());
-        //System.out.println(j);
-        //System.out.println(getResources().getDrawable(j));
-        //imgPhoto.setImageDrawable(getResources().getDrawable(j));     
+        int j = getResources().getIdentifier(adapter9.getItem(adapter1.getPosition(sCadetName)).toLowerCase(), "drawable", getPackageName());
+        System.out.println(j);
+        System.out.println(getResources().getDrawable(j));
+        imgPhoto.setImageDrawable(getResources().getDrawable(j));     
         //System.out.println(j);
         //System.out.println(getResources().getDrawable(j));
         System.out.println("Photo OK");
