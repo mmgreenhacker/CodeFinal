@@ -59,11 +59,15 @@ public final class R {
         public static final int imageButton2=0x7f070004;
         public static final int imageButton3=0x7f070005;
         public static final int imageButton4=0x7f070007;
+        public static final int imageUSAdetail=0x7f07000f;
         public static final int imageview=0x7f070002;
+        public static final int imgUSAguns=0x7f07000d;
+        public static final int imgUSAmissiles=0x7f07000e;
+        public static final int imgUSAradars=0x7f07000c;
         public static final int ivLogo=0x7f070008;
         public static final int listview=0x7f070001;
-        public static final int listviewUSA=0x7f07000c;
-        public static final int menu_settings=0x7f07000d;
+        public static final int listviewUSA=0x7f070010;
+        public static final int menu_settings=0x7f070011;
         public static final int textView1=0x7f070000;
         public static final int textView2=0x7f070009;
         public static final int textView4=0x7f070006;

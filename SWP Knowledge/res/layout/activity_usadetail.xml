@@ -3,4 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <ImageView
+        android:id="@+id/imageUSAdetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/s1" />
+
 </RelativeLayout>
