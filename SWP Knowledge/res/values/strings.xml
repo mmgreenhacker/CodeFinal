@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">SWP Knowledge</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
@@ -15,6 +16,8 @@
     <string name="title_activity_india">IndiaActivity</string>
     <string name="title_activity_thailand">ThailandActivity</string>
     <string name="title_activity_laos">LaosActivity</string>
-    <string name="title_activity_bangladesh">BangladeshActivity</string> 
+    <string name="title_activity_bangladesh">BangladeshActivity</string>
+    <string name="title_activity_air_detial">AirDetialActivity</string>
+    <string name="title_activity_usadetail">USAdetailActivity</string>
 
 </resources>

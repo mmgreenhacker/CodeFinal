@@ -111,6 +111,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.swp.knowledge.AsiaActivity" />
         </activity>
+        <activity
+            android:name=".AirDetialActivity"
+            android:label="@string/title_activity_air_detial" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.AirActivity" />
+        </activity>
+        <activity
+            android:name=".USAdetailActivity"
+            android:label="@string/title_activity_usadetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.USAActivity" />
+        </activity>
     </application>
 
 </manifest>

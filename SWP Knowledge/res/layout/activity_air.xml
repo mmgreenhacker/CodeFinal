@@ -17,8 +17,14 @@
         android:shadowDx="5"
         android:shadowDy="5"
         android:shadowRadius="5"
-        android:text="ေလေၾကာင္းရန္ကာကြယ္ေရးအႏွစ္ခ်ဳပ္"
+        android:text="ေလေၾကာင္းရန္ ကာကြယ္ေရး အႏွစ္ခ်ဳပ္"
         android:textColor="#009900"
-        android:textSize="34dip" />
+        android:textSize="32dip" />
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
