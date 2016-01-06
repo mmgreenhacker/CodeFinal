@@ -62,7 +62,8 @@ public final class R {
         public static final int imageview=0x7f070002;
         public static final int ivLogo=0x7f070008;
         public static final int listview=0x7f070001;
-        public static final int menu_settings=0x7f07000c;
+        public static final int listviewUSA=0x7f07000c;
+        public static final int menu_settings=0x7f07000d;
         public static final int textView1=0x7f070000;
         public static final int textView2=0x7f070009;
         public static final int textView4=0x7f070006;
@@ -84,6 +85,7 @@ public final class R {
         public static final int activity_thailand=0x7f03000d;
         public static final int activity_usa=0x7f03000e;
         public static final int activity_usadetail=0x7f03000f;
+        public static final int activity_usalist=0x7f030010;
     }
     public static final class menu {
         public static final int activity_air=0x7f060000;

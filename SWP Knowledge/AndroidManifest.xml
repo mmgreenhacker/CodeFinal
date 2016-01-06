@@ -119,11 +119,18 @@
                 android:value="com.swp.knowledge.AirActivity" />
         </activity>
         <activity
-            android:name=".USAdetailActivity"
+            android:name=".USAlistActivity"
             android:label="@string/title_activity_usadetail" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.swp.knowledge.USAActivity" />
+        </activity>
+        <activity
+            android:name=".USAdetailActivity"
+            android:label="@string/title_activity_usadetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.USAlistActivity" />
         </activity>
     </application>
 
