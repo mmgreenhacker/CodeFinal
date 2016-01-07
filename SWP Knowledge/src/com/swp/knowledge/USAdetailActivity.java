@@ -8,6 +8,8 @@ import android.content.Intent;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -20,6 +22,9 @@ public class USAdetailActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		 requestWindowFeature(Window.FEATURE_NO_TITLE);
+			this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+					WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		Intent intent = getIntent();
 		iTyped = intent.getIntExtra(USAlistActivity.EXTRA_MESSAGE_USA_TYPE, 0);
 		iPos = intent

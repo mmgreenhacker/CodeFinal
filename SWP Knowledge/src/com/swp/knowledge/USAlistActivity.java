@@ -26,9 +26,10 @@ public class USAlistActivity extends Activity {
 	public final static String EXTRA_MESSAGE_USA_TYPE = "com.engineer4myanmar.swp.knowledge.TYPE";
 	
 	int iType=0;
-	String[] usaGUNS = new String[] { "37 mm Gun M1", // 1
+	String[] usaGUNS = new String[] { 
+			"37 mm Gun M1", // 1
 			"90 mm Gun M1A1", // 2
-			"37 mm Gun M1", // 3
+			"Bofors 40 mm gun", // 3
 			"Oerlikon 20 mm cannon", // 4
 			"120 mm M1 gun" // 5
 	};
