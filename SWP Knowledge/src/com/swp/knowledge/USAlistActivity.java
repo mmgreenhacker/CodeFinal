@@ -32,7 +32,9 @@ public class USAlistActivity extends Activity {
 			"Oerlikon 20 mm cannon", // 4
 			"120 mm M1 gun" // 5
 	};
-	String[] usaMissiles = new String[] { "RIM – 2 Terrier", // 1
+	String[] usaMissiles = new String[] { 
+			//usam
+			"RIM – 2 Terrier", // 1
 			"Nike Ajax", // 2
 			"Nike Hercules", // 3
 			"RIM-8 Talos", // 4
@@ -41,21 +43,19 @@ public class USAlistActivity extends Activity {
 			"RIM-24 Tartar", // 7
 			"FIM-43 Redeye", // 8
 			"RIM-50 Typhon", // 9
-			"RIM-7 Sea Sparrow", // 10
-			"RIM – 2 Terrier", // 11
-			"RIM-7 Sea Sparrow", // 12
-			"MIM-72 Chaparral", // 13
-			"RIM-67 Standard ER", // 14
-			"RIM-66 Standard", // 15
-			"FIM-92 Stinger", // 16
-			"AN/TWQ-1 Avenger", // 17
-			"MIM-104 Patriot", // 18
-			"Patriot missile", // 19
-			"Roland (missile)", // 20
-			"RIM-116 Rolling Airframe Missile", // 21
-			"RIM-67 Standard ER", // 22
-			"RIM-162 ESSM", // 23
-			"LAV-25" // 24
+			"RIM-7 Sea Sparrow", // 10			
+			"MIM-72 Chaparral", // 11
+			"RIM-67 Standard ER", // 12
+			"RIM-66 Standard", // 13
+			"FIM-92 Stinger", // 14
+			"AN/TWQ-1 Avenger", // 15
+			"MIM-104 Patriot", // 16
+			"Patriot missile", // 17
+			"Roland (missile)", // 18
+			"RIM-116 Rolling Airframe Missile", // 19
+			"RIM-67 Standard ER", // 20
+			"RIM-162 ESSM", // 21
+			"LAV-25" // 22
 	};
 	String[] usaRadars = new String[] { "R1", // 1
 			"R2", // 2

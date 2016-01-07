@@ -51,6 +51,30 @@ public final class R {
         public static final int superc=0x7f020025;
         public static final int thailand=0x7f020026;
         public static final int usa=0x7f020027;
+        public static final int usag1=0x7f020028;
+        public static final int usam1=0x7f020029;
+        public static final int usam10=0x7f02002a;
+        public static final int usam11=0x7f02002b;
+        public static final int usam12=0x7f02002c;
+        public static final int usam13=0x7f02002d;
+        public static final int usam14=0x7f02002e;
+        public static final int usam15=0x7f02002f;
+        public static final int usam16=0x7f020030;
+        public static final int usam17=0x7f020031;
+        public static final int usam18=0x7f020032;
+        public static final int usam19=0x7f020033;
+        public static final int usam2=0x7f020034;
+        public static final int usam20=0x7f020035;
+        public static final int usam21=0x7f020036;
+        public static final int usam22=0x7f020037;
+        public static final int usam3=0x7f020038;
+        public static final int usam4=0x7f020039;
+        public static final int usam5=0x7f02003a;
+        public static final int usam6=0x7f02003b;
+        public static final int usam7=0x7f02003c;
+        public static final int usam8=0x7f02003d;
+        public static final int usam9=0x7f02003e;
+        public static final int usar1=0x7f02003f;
     }
     public static final class id {
         public static final int btnPassword=0x7f07000b;
