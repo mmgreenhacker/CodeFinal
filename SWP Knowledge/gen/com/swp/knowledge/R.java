@@ -81,23 +81,25 @@ public final class R {
         public static final int usar1=0x7f020043;
     }
     public static final class id {
-        public static final int btnPassword=0x7f07000b;
-        public static final int etPassword=0x7f07000a;
+        public static final int btnPassword=0x7f07000d;
+        public static final int etPassword=0x7f07000c;
         public static final int imageButton1=0x7f070003;
         public static final int imageButton2=0x7f070004;
         public static final int imageButton3=0x7f070005;
         public static final int imageButton4=0x7f070007;
-        public static final int imageUSAdetail=0x7f07000f;
+        public static final int imageISRAELdetail=0x7f070008;
+        public static final int imageUSAdetail=0x7f070011;
         public static final int imageview=0x7f070002;
-        public static final int imgUSAguns=0x7f07000d;
-        public static final int imgUSAmissiles=0x7f07000e;
-        public static final int imgUSAradars=0x7f07000c;
-        public static final int ivLogo=0x7f070008;
+        public static final int imgUSAguns=0x7f07000f;
+        public static final int imgUSAmissiles=0x7f070010;
+        public static final int imgUSAradars=0x7f07000e;
+        public static final int ivLogo=0x7f07000a;
         public static final int listview=0x7f070001;
-        public static final int listviewUSA=0x7f070010;
-        public static final int menu_settings=0x7f070011;
+        public static final int listviewISRAEL=0x7f070009;
+        public static final int listviewUSA=0x7f070012;
+        public static final int menu_settings=0x7f070013;
         public static final int textView1=0x7f070000;
-        public static final int textView2=0x7f070009;
+        public static final int textView2=0x7f07000b;
         public static final int textView4=0x7f070006;
     }
     public static final class layout {
@@ -109,15 +111,17 @@ public final class R {
         public static final int activity_india=0x7f030005;
         public static final int activity_iran=0x7f030006;
         public static final int activity_israel=0x7f030007;
-        public static final int activity_laos=0x7f030008;
-        public static final int activity_login=0x7f030009;
-        public static final int activity_main=0x7f03000a;
-        public static final int activity_ru=0x7f03000b;
-        public static final int activity_superc=0x7f03000c;
-        public static final int activity_thailand=0x7f03000d;
-        public static final int activity_usa=0x7f03000e;
-        public static final int activity_usadetail=0x7f03000f;
-        public static final int activity_usalist=0x7f030010;
+        public static final int activity_israeldetail=0x7f030008;
+        public static final int activity_israellist=0x7f030009;
+        public static final int activity_laos=0x7f03000a;
+        public static final int activity_login=0x7f03000b;
+        public static final int activity_main=0x7f03000c;
+        public static final int activity_ru=0x7f03000d;
+        public static final int activity_superc=0x7f03000e;
+        public static final int activity_thailand=0x7f03000f;
+        public static final int activity_usa=0x7f030010;
+        public static final int activity_usadetail=0x7f030011;
+        public static final int activity_usalist=0x7f030012;
     }
     public static final class menu {
         public static final int activity_air=0x7f060000;
@@ -128,14 +132,16 @@ public final class R {
         public static final int activity_india=0x7f060005;
         public static final int activity_iran=0x7f060006;
         public static final int activity_israel=0x7f060007;
-        public static final int activity_laos=0x7f060008;
-        public static final int activity_login=0x7f060009;
-        public static final int activity_main=0x7f06000a;
-        public static final int activity_ru=0x7f06000b;
-        public static final int activity_superc=0x7f06000c;
-        public static final int activity_thailand=0x7f06000d;
-        public static final int activity_usa=0x7f06000e;
-        public static final int activity_usadetail=0x7f06000f;
+        public static final int activity_israeldetail=0x7f060008;
+        public static final int activity_israellist=0x7f060009;
+        public static final int activity_laos=0x7f06000a;
+        public static final int activity_login=0x7f06000b;
+        public static final int activity_main=0x7f06000c;
+        public static final int activity_ru=0x7f06000d;
+        public static final int activity_superc=0x7f06000e;
+        public static final int activity_thailand=0x7f06000f;
+        public static final int activity_usa=0x7f060010;
+        public static final int activity_usadetail=0x7f060011;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -149,6 +155,8 @@ public final class R {
         public static final int title_activity_india=0x7f04000d;
         public static final int title_activity_iran=0x7f04000a;
         public static final int title_activity_israel=0x7f04000b;
+        public static final int title_activity_israeldetail=0x7f040014;
+        public static final int title_activity_israellist=0x7f040013;
         public static final int title_activity_laos=0x7f04000f;
         public static final int title_activity_login=0x7f040003;
         public static final int title_activity_main=0x7f040004;

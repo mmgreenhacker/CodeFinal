@@ -132,6 +132,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.swp.knowledge.USAlistActivity" />
         </activity>
+        <activity
+            android:name=".ISRAELlistActivity"
+            android:label="@string/title_activity_israellist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.IsraelActivity" />
+        </activity>
+        <activity
+            android:name=".ISRAELdetailActivity"
+            android:label="@string/title_activity_israeldetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.ISRAELlistActivity" />
+        </activity>
     </application>
 
 </manifest>

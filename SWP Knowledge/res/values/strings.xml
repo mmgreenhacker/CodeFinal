@@ -19,5 +19,7 @@
     <string name="title_activity_bangladesh">BangladeshActivity</string>
     <string name="title_activity_air_detial">AirDetialActivity</string>
     <string name="title_activity_usadetail">USAdetailActivity</string>
+    <string name="title_activity_israellist">ISRAELlistActivity</string>
+    <string name="title_activity_israeldetail">ISRAELdetailActivity</string>
 
 </resources>
