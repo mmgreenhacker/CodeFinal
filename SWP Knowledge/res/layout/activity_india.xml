@@ -39,6 +39,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
+        android:onClick="funINDIAradars"
         android:src="@drawable/radar" />
 
     <TextView
@@ -58,6 +59,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
+        android:onClick="funINDIAguns"
         android:src="@drawable/gun1" />
 
     <TextView
@@ -77,6 +79,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
+        android:onClick="funINDIAmissiles"
         android:src="@drawable/missile1" />
     
 

@@ -72,7 +72,7 @@
             android:gravity="center"
             android:layout_marginTop="20dp"         
             android:textColor="#fff"               
-            android:text="အာရွႏိုင္ငံမ်ား"           
+            android:text="အိမ္နီးခ်င္းႏိုင္ငံမ်ား"           
             android:textSize= "20dip"/>
 
             <ImageButton

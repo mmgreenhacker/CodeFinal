@@ -18,7 +18,7 @@
         android:shadowDx="5"
         android:shadowDy="5"
         android:shadowRadius="5"
-        android:text="အာရွႏိုင္ငံမ်ား"
+        android:text="အိမ္နီးခ်င္းႏိုင္ငံမ်ား"
         android:textColor="#009900"
         android:textSize="34dip" />
 

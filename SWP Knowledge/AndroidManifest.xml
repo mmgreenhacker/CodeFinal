@@ -146,6 +146,62 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.swp.knowledge.ISRAELlistActivity" />
         </activity>
+        <activity
+            android:name=".RUlistActivity"
+            android:label="@string/title_activity_rulist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.RUActivity" />
+        </activity>
+        <activity
+            android:name=".RUdetailActivity"
+            android:label="@string/title_activity_rudetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.RUlistActivity" />
+        </activity>
+        <activity
+            android:name=".IRANlistActivity"
+            android:label="@string/title_activity_iranlist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.IranActivity" />
+        </activity>
+        <activity
+            android:name=".IRANdetailActivity"
+            android:label="@string/title_activity_irandetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.IRANlistActivity" />
+        </activity>
+        <activity
+            android:name=".CHINAlistActivity"
+            android:label="@string/title_activity_chinalist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.ChinaActivity" />
+        </activity>
+        <activity
+            android:name=".CHINAdetailActivity"
+            android:label="@string/title_activity_chinadetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.CHINAlistActivity" />
+        </activity>
+        <activity
+            android:name=".INDIAlistActivity"
+            android:label="@string/title_activity_indialist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.IndiaActivity" />
+        </activity>
+        <activity
+            android:name=".INDIAdetailActivity"
+            android:label="@string/title_activity_indiadetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.INDIAlistActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -75,7 +75,7 @@ public class USAlistActivity extends Activity {
 		iType = intent.getIntExtra(USAActivity.EXTRA_MESSAGE_USA, 0);
 		Log.d("itype",String.valueOf(iType));
 		setContentView(R.layout.activity_usalist);
-		Toast.makeText(getApplicationContext(), "OK",Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getApplicationContext(), "OK",Toast.LENGTH_SHORT).show();
 		
 		final ListView listview = (ListView) findViewById(R.id.listviewUSA);
 		final ArrayList<String> list = new ArrayList<String>();

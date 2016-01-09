@@ -21,5 +21,13 @@
     <string name="title_activity_usadetail">USAdetailActivity</string>
     <string name="title_activity_israellist">ISRAELlistActivity</string>
     <string name="title_activity_israeldetail">ISRAELdetailActivity</string>
+    <string name="title_activity_rulist">RUlistActivity</string>
+    <string name="title_activity_rudetail">RUdetailActivity</string>
+    <string name="title_activity_iranlist">IRANlistActivity</string>
+    <string name="title_activity_irandetail">IRANdetailActivity</string>
+    <string name="title_activity_chinalist">CHINAlistActivity</string>
+    <string name="title_activity_chinadetail">CHINAdetailActivity</string>
+    <string name="title_activity_indialist">INDIAlistActivity</string>
+    <string name="title_activity_indiadetail">INDIAdetailActivity</string>
 
 </resources>

@@ -38,6 +38,7 @@
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_gravity="center"
+        android:onClick="funRUradars"
         android:scaleType="fitXY"
         android:src="@drawable/radar" />
 
@@ -57,6 +58,7 @@
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_gravity="center"
+        android:onClick="funRUguns"
         android:scaleType="fitXY"
         android:src="@drawable/gun1" />
 
@@ -76,6 +78,7 @@
         android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_gravity="center"
+        android:onClick="funRUmissiles"
         android:scaleType="fitXY"
         android:src="@drawable/missile1" />
     

@@ -38,12 +38,29 @@
         android:layout_width="240dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:scaleType="fitXY"
-        android:src="@drawable/usa" 
         android:onClick="funUSA"
-        />
+        android:scaleType="fitXY"
+        android:src="@drawable/usa" />
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="ရုရွ"
+        android:textColor="#fff"
+        android:textSize="20dip" />
 
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:onClick="funRU"
+        android:scaleType="fitXY"
+        android:src="@drawable/ru" />
 
     <TextView
         android:id="@+id/textView1"
@@ -61,8 +78,8 @@
         android:layout_width="240dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:scaleType="fitXY"
         android:onClick="funIsrael"
+        android:scaleType="fitXY"
         android:src="@drawable/israel" />
 
     <TextView
@@ -81,8 +98,8 @@
         android:layout_width="240dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
-        android:scaleType="fitXY"
         android:onClick="funIran"
+        android:scaleType="fitXY"
         android:src="@drawable/iran" />
 
 </LinearLayout>
