@@ -29,5 +29,11 @@
     <string name="title_activity_chinadetail">CHINAdetailActivity</string>
     <string name="title_activity_indialist">INDIAlistActivity</string>
     <string name="title_activity_indiadetail">INDIAdetailActivity</string>
+    <string name="title_activity_thailandlist">THAILANDlistActivity</string>
+    <string name="title_activity_thailanddetail">THAILANDdetailActivity</string>
+    <string name="title_activity_laoslist">LAOSlistActivity</string>
+    <string name="title_activity_laosdetail">LAOSdetailActivity</string>
+    <string name="title_activity_bangladeshlist">BANGLADESHlistActivity</string>
+    <string name="title_activity_bangladeshdetail">BANGLADESHdetailActivity</string>
 
 </resources>

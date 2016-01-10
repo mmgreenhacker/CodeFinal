@@ -27,36 +27,25 @@ public class RUlistActivity extends Activity {
 	
 	int iType=0;
 	String[] ruGUNS = new String[] { 
-			"37 mm Gun M1", // 1
-			"90 mm Gun M1A1", // 2
-			"Bofors 40 mm gun", // 3
-			"Oerlikon 20 mm cannon", // 4
-			"120 mm M1 gun" // 5
+			"Z5U-37", // 1
+			"ZU-23-2", // 2
+			"ZU-57-2(Ob'yekt 500)", // 3
+			"AZP S-60", // 4
+			"ZSU-23-4", // 5
+			"37 mm AA M1939(61-K)", // 6
+			
 	};
 	String[] ruMissiles = new String[] { 
 			//rum
-			"RIM � 2 Terrier", // 1
-			"Nike Ajax", // 2
-			"Nike Hercules", // 3
-			"RIM-8 Talos", // 4
-			"CIM-10 Bomarc", // 5
-			"MIM-23 Hawk", // 6
-			"RIM-24 Tartar", // 7
-			"FIM-43 Redeye", // 8
-			"RIM-50 Typhon", // 9
-			"RIM-7 Sea Sparrow", // 10			
-			"MIM-72 Chaparral", // 11
-			"RIM-67 Standard ER", // 12
-			"RIM-66 Standard", // 13
-			"FIM-92 Stinger", // 14
-			"AN/TWQ-1 Avenger", // 15
-			"MIM-104 Patriot", // 16
-			"Patriot missile", // 17
-			"Roland (missile)", // 18
-			"RIM-116 Rolling Airframe Missile", // 19
-			"RIM-67 Standard ER", // 20
-			"RIM-162 ESSM", // 21
-			"LAV-25" // 22
+			"50R6 (S-350E) Vityaz", // 1
+			"Tor Missile System", // 2
+			"S-500 Missile System", // 3
+			"S-400 Missile System (TRIUMF)", // 4
+			"S-300 Family", // 5
+			"S-300 Family အေထြေထြ အခ်က္အလက္မ်ား", // 6
+			"S-200 Dubna", // 7
+			"S-125 Neva/Pechora", // 8
+			
 	};
 	String[] ruRadars = new String[] { "R1", // 1
 			"R2", // 2

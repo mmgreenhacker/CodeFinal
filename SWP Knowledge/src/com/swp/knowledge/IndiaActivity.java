@@ -20,7 +20,7 @@ public class IndiaActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 		this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_usa);
+        setContentView(R.layout.activity_india);
    
     }
 	//radar 1 guns 2 missile 3

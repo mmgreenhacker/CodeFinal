@@ -202,6 +202,48 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.swp.knowledge.INDIAlistActivity" />
         </activity>
+        <activity
+            android:name=".THAILANDlistActivity"
+            android:label="@string/title_activity_thailandlist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.ThailandActivity" />
+        </activity>
+        <activity
+            android:name=".THAILANDdetailActivity"
+            android:label="@string/title_activity_thailanddetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.THAILANDlistActivity" />
+        </activity>
+        <activity
+            android:name=".LAOSlistActivity"
+            android:label="@string/title_activity_laoslist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.LaosActivity" />
+        </activity>
+        <activity
+            android:name=".LAOSdetailActivity"
+            android:label="@string/title_activity_laosdetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.LAOSlistActivity" />
+        </activity>
+        <activity
+            android:name=".BANGLADESHlistActivity"
+            android:label="@string/title_activity_bangladeshlist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.BangladeshActivity" />
+        </activity>
+        <activity
+            android:name=".BANGLADESHdetailActivity"
+            android:label="@string/title_activity_bangladeshdetail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swp.knowledge.BANGLADESHlistActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -1,35 +1,57 @@
 package com.swp.knowledge;
 
+import java.util.ArrayList;
+
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.Toast;
 import android.support.v4.app.NavUtils;
 
 public class RUdetailActivity extends Activity {
+	public int iTyped = 0;
+	public int iPos = 0;
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rudetail);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
-    }
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		 requestWindowFeature(Window.FEATURE_NO_TITLE);
+			this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+					WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		Intent intent = getIntent();
+		iTyped = intent.getIntExtra(RUlistActivity.EXTRA_MESSAGE_RU_TYPE, 0);
+		iPos = intent
+				.getIntExtra(RUlistActivity.EXTRA_MESSAGE_RU_POSITION, 0);
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_rudetail, menu);
-        return true;
-    }
+		setContentView(R.layout.activity_rudetail);
+		// Toast.makeText(getApplicationContext(),
+		// String.valueOf(iTyped),Toast.LENGTH_SHORT).show();
+		String img = "";
+		switch (iTyped) {
+		// radar
+		case 1:
+			img = "rur" + String.valueOf(iPos + 1);			
+			break;
+		// guns
+		case 2:
+			img = "rug" + String.valueOf(iPos + 1);			
+			break;
+		// missile
+		case 3:
+			img = "rum" + String.valueOf(iPos + 1);			
+			break;
 
-    
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(this);
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
+		}
+		//Toast.makeText(getApplicationContext(), img,Toast.LENGTH_SHORT).show();
+		ImageView imageview = (ImageView)findViewById(R.id.imageRUdetail);
+		int id = getResources().getIdentifier("com.swp.knowledge:drawable/" + img, null, null);
+        imageview.setImageResource(id);
+	}
 }

@@ -39,6 +39,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
+        android:onClick="funLAOSradars"
         android:src="@drawable/radar" />
 
     <TextView
@@ -58,6 +59,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
+        android:onClick="funLAOSguns"
         android:src="@drawable/gun1" />
 
     <TextView
@@ -77,6 +79,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
+        android:onClick="funLAOSmissiles"
         android:src="@drawable/missile1" />
     
 
