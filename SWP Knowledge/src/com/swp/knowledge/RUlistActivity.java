@@ -47,7 +47,8 @@ public class RUlistActivity extends Activity {
 			"S-125 Neva/Pechora", // 8
 			
 	};
-	String[] ruRadars = new String[] { "R1", // 1
+	String[] ruRadars = new String[] { 
+			"R1", // 1
 			"R2", // 2
 			"R3", // 3
 			"R4", // 4
