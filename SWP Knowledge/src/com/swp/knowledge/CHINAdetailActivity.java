@@ -37,15 +37,15 @@ public class CHINAdetailActivity extends Activity {
 		switch (iTyped) {
 		// radar
 		case 1:
-			img = "usar" + String.valueOf(iPos + 1);			
+			img = "chinar" + String.valueOf(iPos + 1);			
 			break;
 		// guns
 		case 2:
-			img = "usag" + String.valueOf(iPos + 1);			
+			img = "chinag" + String.valueOf(iPos + 1);			
 			break;
 		// missile
 		case 3:
-			img = "usam" + String.valueOf(iPos + 1);			
+			img = "chinam" + String.valueOf(iPos + 1);			
 			break;
 
 		}

@@ -27,42 +27,25 @@ public class THAILANDlistActivity extends Activity {
 	
 	int iType=0;
 	String[] thailandGUNS = new String[] { 
-			"37 mm Gun M1", // 1
-			"90 mm Gun M1A1", // 2
-			"Bofors 40 mm gun", // 3
-			"Oerlikon 20 mm cannon", // 4
-			"120 mm M1 gun" // 5
+			"", // 1
+			
 	};
 	String[] thailandMissiles = new String[] { 
 			//thailandm
-			"RIM – 2 Terrier", // 1
-			"Nike Ajax", // 2
-			"Nike Hercules", // 3
-			"RIM-8 Talos", // 4
-			"CIM-10 Bomarc", // 5
-			"MIM-23 Hawk", // 6
-			"RIM-24 Tartar", // 7
-			"FIM-43 Redeye", // 8
-			"RIM-50 Typhon", // 9
-			"RIM-7 Sea Sparrow", // 10			
-			"MIM-72 Chaparral", // 11
-			"RIM-67 Standard ER", // 12
-			"RIM-66 Standard", // 13
-			"FIM-92 Stinger", // 14
-			"AN/TWQ-1 Avenger", // 15
-			"MIM-104 Patriot", // 16
-			"Patriot missile", // 17
-			"Roland (missile)", // 18
-			"RIM-116 Rolling Airframe Missile", // 19
-			"RIM-67 Standard ER", // 20
-			"RIM-162 ESSM", // 21
-			"LAV-25" // 22
+			"ADATS (Air Defence Anti-tank system)", // 1
+			"ADATS (Air Defence Anti-tank system)", // 2
+			"Crotale Low Level SAM", // 3
+			"RBS 70 SAM", // 4
 	};
-	String[] thailandRadars = new String[] { "R1", // 1
-			"R2", // 2
-			"R3", // 3
-			"R4", // 4
-			"R5" // 5
+	String[] thailandRadars = new String[] { 
+			"AN/TPS-78 S-Band Radar", // 1
+			"AN/TPS -70 Tactical Radar", // 2
+			"AN/TPS -43 Tactical Radar", // 3
+			"AN/FPS-117 Radar", // 4
+			"Giraaffe AME Radar", // 5
+			"AN/FPS-130 X Air Surveillance Radar", // 6
+			"RAT-31S Radar", // 7
+		
 	};
 
 	@Override

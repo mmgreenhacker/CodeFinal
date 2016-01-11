@@ -54,15 +54,14 @@ public class USAlistActivity extends Activity {
 			"Patriot missile", // 17
 			"Roland (missile)", // 18
 			"RIM-116 Rolling Airframe Missile", // 19
-			"RIM-67 Standard ER", // 20
-			"RIM-162 ESSM", // 21
-			"LAV-25" // 22
+			"RIM-162 ESSM", // 20
+			"LAV-25" // 21
 	};
-	String[] usaRadars = new String[] { "R1", // 1
-			"R2", // 2
-			"R3", // 3
-			"R4", // 4
-			"R5" // 5
+	String[] usaRadars = new String[] { 
+			"THAAD", // 1
+			"Kokkan", // 2
+			"AN MPQ-53", // 3
+			
 	};
 
 	@Override

@@ -37,15 +37,15 @@ public class LAOSdetailActivity extends Activity {
 		switch (iTyped) {
 		// radar
 		case 1:
-			img = "usar" + String.valueOf(iPos + 1);			
+			img = "laosr" + String.valueOf(iPos + 1);			
 			break;
 		// guns
 		case 2:
-			img = "usag" + String.valueOf(iPos + 1);			
+			img = "laosg" + String.valueOf(iPos + 1);			
 			break;
 		// missile
 		case 3:
-			img = "usam" + String.valueOf(iPos + 1);			
+			img = "laosm" + String.valueOf(iPos + 1);			
 			break;
 
 		}

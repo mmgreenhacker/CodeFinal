@@ -37,15 +37,15 @@ public class THAILANDdetailActivity extends Activity {
 		switch (iTyped) {
 		// radar
 		case 1:
-			img = "usar" + String.valueOf(iPos + 1);			
+			img = "thair" + String.valueOf(iPos + 1);			
 			break;
 		// guns
 		case 2:
-			img = "usag" + String.valueOf(iPos + 1);			
+			img = "thaig" + String.valueOf(iPos + 1);			
 			break;
 		// missile
 		case 3:
-			img = "usam" + String.valueOf(iPos + 1);			
+			img = "thaim" + String.valueOf(iPos + 1);			
 			break;
 
 		}

@@ -27,42 +27,27 @@ public class BANGLADESHlistActivity extends Activity {
 	
 	int iType=0;
 	String[] BANGLADESHGUNS = new String[] { 
-			"37 mm Gun M1", // 1
-			"90 mm Gun M1A1", // 2
-			"Bofors 40 mm gun", // 3
-			"Oerlikon 20 mm cannon", // 4
-			"120 mm M1 gun" // 5
+			"Type 59 100 mm Towed Anti-Aircraft Artillery", // 1
+			"57 mm AZP S-60 Anti-Aircraft Gun", // 2
+			"Bofors 40 mm Gun", // 3
+			"20 mm Anti-Aircraft Gun", // 4
+			"35 mm Type 90 Anti-Aircraft Gun", // 5
 	};
 	String[] BANGLADESHMissiles = new String[] { 
 			//BANGLADESHm
-			"RIM – 2 Terrier", // 1
-			"Nike Ajax", // 2
-			"Nike Hercules", // 3
-			"RIM-8 Talos", // 4
-			"CIM-10 Bomarc", // 5
-			"MIM-23 Hawk", // 6
-			"RIM-24 Tartar", // 7
-			"FIM-43 Redeye", // 8
-			"RIM-50 Typhon", // 9
-			"RIM-7 Sea Sparrow", // 10			
-			"MIM-72 Chaparral", // 11
-			"RIM-67 Standard ER", // 12
-			"RIM-66 Standard", // 13
-			"FIM-92 Stinger", // 14
-			"AN/TWQ-1 Avenger", // 15
-			"MIM-104 Patriot", // 16
-			"Patriot missile", // 17
-			"Roland (missile)", // 18
-			"RIM-116 Rolling Airframe Missile", // 19
-			"RIM-67 Standard ER", // 20
-			"RIM-162 ESSM", // 21
-			"LAV-25" // 22
+			"HQ-7(FM-90) Air Defence System", // 1
+			"Aster 30 SAMPT/T Medium Range Sam", // 2
+			"LY-60 Surface to Air Missile System", // 3
+			
 	};
 	String[] BANGLADESHRadars = new String[] { "R1", // 1
-			"R2", // 2
-			"R3", // 3
-			"R4", // 4
-			"R5" // 5
+			"1L-117 Radar", // 1
+			"AN/TPS-43 Radar", // 2
+			"AN/TPS-43 Radar", // 3
+			"P 35 M Radar", // 4
+			"YLC-2 Radar", // 5
+			"YLC-6 Radar (2D) ", // 6
+			
 	};
 
 	@Override

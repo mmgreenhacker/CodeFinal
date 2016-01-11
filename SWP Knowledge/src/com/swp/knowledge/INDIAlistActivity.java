@@ -27,42 +27,37 @@ public class INDIAlistActivity extends Activity {
 	
 	int iType=0;
 	String[] indiaGUNS = new String[] { 
-			"37 mm Gun M1", // 1
-			"90 mm Gun M1A1", // 2
-			"Bofors 40 mm gun", // 3
-			"Oerlikon 20 mm cannon", // 4
-			"120 mm M1 gun" // 5
+			"40 mm L40/70 LAAG", // 1
+			"23 mm ZSU-23- 4M SPAAG (Shilka)", // 1
+			
 	};
 	String[] indiaMissiles = new String[] { 
 			//indiam
-			"RIM – 2 Terrier", // 1
-			"Nike Ajax", // 2
-			"Nike Hercules", // 3
-			"RIM-8 Talos", // 4
-			"CIM-10 Bomarc", // 5
-			"MIM-23 Hawk", // 6
-			"RIM-24 Tartar", // 7
-			"FIM-43 Redeye", // 8
-			"RIM-50 Typhon", // 9
-			"RIM-7 Sea Sparrow", // 10			
-			"MIM-72 Chaparral", // 11
-			"RIM-67 Standard ER", // 12
-			"RIM-66 Standard", // 13
-			"FIM-92 Stinger", // 14
-			"AN/TWQ-1 Avenger", // 15
-			"MIM-104 Patriot", // 16
-			"Patriot missile", // 17
-			"Roland (missile)", // 18
-			"RIM-116 Rolling Airframe Missile", // 19
-			"RIM-67 Standard ER", // 20
-			"RIM-162 ESSM", // 21
-			"LAV-25" // 22
+			"9K22 Tunguska (Self-propelled Anti-aircraft Weapon)", // 1
+			"SA-7", // 2
+			"SA-16", // 3
+			"SA-18 Grouse", // 4
+			"SA-8 Gecko SAM", // 5
+			"SA-9 Gaskin Low altitude SAM", // 6
+			"9K35 Strela-10 (NATO Reporting Name: SA-13 Gopher)", // 7
+			"SA-10 C PMU-2", // 8
+			"S-75 Dvina (SA-2 Guideline)", // 9
+			"SA-3 (Pechora-1 and 2) Goa", // 10
+			"Trishul Missile System (Short-range Surface to Air Missile)", // 11
+			"AKASH SAM (Medium-range Surface to Air Missile)", // 12
+			"SPYDER Low-level, Quick-reaction, Surface-to-air Missile(llqrm)", // 13
+			"Prithvi Air Defence (PAD) / Pradyumna Ballistic Missile Interceptor", // 14
+			"Advanced Air Defence (AAD)/Ashwin Ballistic Missile Interceptor", // 15
+			"Agni-V", // 16
+			"BrahMos", // 17
+			"Prahaar", // 18
+			"Prithvi-II", // 19
+			"Shaurya", // 20
 	};
-	String[] indiaRadars = new String[] { "R1", // 1
-			"R2", // 2
-			"R3", // 3
-			"R4", // 4
-			"R5" // 5
+	String[] indiaRadars = new String[] { 
+			"Indra-II Radar", // 1
+			"Rohini", // 2
+			
 	};
 
 	@Override

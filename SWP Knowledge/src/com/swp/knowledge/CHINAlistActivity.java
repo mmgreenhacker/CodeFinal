@@ -27,42 +27,40 @@ public class CHINAlistActivity extends Activity {
 	
 	int iType=0;
 	String[] chinaGUNS = new String[] { 
-			"37 mm Gun M1", // 1
-			"90 mm Gun M1A1", // 2
-			"Bofors 40 mm gun", // 3
-			"Oerlikon 20 mm cannon", // 4
-			"120 mm M1 gun" // 5
+			"", // 1
+			"", // 2
+			"", // 3
+			"", // 4
+			"" // 5
 	};
 	String[] chinaMissiles = new String[] { 
 			//chinam
-			"RIM – 2 Terrier", // 1
-			"Nike Ajax", // 2
-			"Nike Hercules", // 3
-			"RIM-8 Talos", // 4
-			"CIM-10 Bomarc", // 5
-			"MIM-23 Hawk", // 6
-			"RIM-24 Tartar", // 7
-			"FIM-43 Redeye", // 8
-			"RIM-50 Typhon", // 9
-			"RIM-7 Sea Sparrow", // 10			
-			"MIM-72 Chaparral", // 11
-			"RIM-67 Standard ER", // 12
-			"RIM-66 Standard", // 13
-			"FIM-92 Stinger", // 14
-			"AN/TWQ-1 Avenger", // 15
-			"MIM-104 Patriot", // 16
-			"Patriot missile", // 17
-			"Roland (missile)", // 18
-			"RIM-116 Rolling Airframe Missile", // 19
-			"RIM-67 Standard ER", // 20
-			"RIM-162 ESSM", // 21
-			"LAV-25" // 22
+			"SC-19" +
+			"KT-1 (Kaituozhe-1), KT-2, KT-3  (Anti-satellite missile)", // 1
+			"Fan Ji (Anti-Ballistic Missile)", // 2
+			"HQ-18/15 (Anti-Ballistic Missile)", // 3
+			"S-300 PMU2", // 4
+			"S-300 PMU1 (HQ-10)", // 5
+			"HQ-9 Surface to Air Missile (FT-200)", // 6
+			"KS-1000 Missile", // 7
+			"Kai Shan - 1 (KS-1)", // 8
+			"HQ-12/KS-2", // 9
+			"FT-2000", // 10			
+			"Sky Dragon", // 11
+			"FD-2000", // 12
+			"S-300 PMU", // 13
+			"HQ-16", // 14
+			"Tor-M1", // 15
+			"HQ-7 (FM-B0)", // 16
+			"HQ-6" // 17
+		
 	};
-	String[] chinaRadars = new String[] { "R1", // 1
-			"R2", // 2
-			"R3", // 3
-			"R4", // 4
-			"R5" // 5
+	String[] chinaRadars = new String[] { 
+			"YLC-2/YLC-2A/YLC-2V", // 1
+			"YLC-2", // 2
+			"YLC-6M", // 3
+			"YLC-18 (3D)" // 4
+			
 	};
 
 	@Override
