@@ -28,6 +28,7 @@ public class LoginActivity extends Activity {
 		String sPass = "";
 		sPass = etPassword.getText().toString();
 		//### password ကို ျပန္ထည္႔ခ်င္ရင္ ဒီ ကြန္မင္႔ကို ဖ်က္
+		
 		if (sPass.equals("30445")) {
 			startActivity(new Intent(LoginActivity.this,
 					MainActivity.class));
