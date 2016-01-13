@@ -27,8 +27,10 @@ public class ISRAELlistActivity extends Activity {
 	
 	int iType=0;
 	String[] israelGUNS = new String[] { 
-			"", // 1
-			
+			"Hispano-Suiza HS.404", // 1
+			"M163 VADS ", // 2
+			"Machbet", // 3
+			"RapidFire 40 mm", // 4
 	};
 	String[] israelMissiles = new String[] { 
 			//israelm
@@ -38,7 +40,8 @@ public class ISRAELlistActivity extends Activity {
 			"Barak 8", // 4
 			"Iron Dome" // 5			
 	};
-	String[] israelRadars = new String[] { "", // 1
+	String[] israelRadars = new String[] { 
+			"", // 1
 			
 			
 	};

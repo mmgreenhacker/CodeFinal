@@ -40,7 +40,7 @@ public class BANGLADESHlistActivity extends Activity {
 			"LY-60 Surface to Air Missile System", // 3
 			
 	};
-	String[] BANGLADESHRadars = new String[] { "R1", // 1
+	String[] BANGLADESHRadars = new String[] { 
 			"1L-117 Radar", // 1
 			"AN/TPS-43 Radar", // 2
 			"AN/TPS-43 Radar", // 3

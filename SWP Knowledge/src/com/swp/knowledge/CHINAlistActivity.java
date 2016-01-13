@@ -27,32 +27,32 @@ public class CHINAlistActivity extends Activity {
 	
 	int iType=0;
 	String[] chinaGUNS = new String[] { 
-			"", // 1
-			"", // 2
-			"", // 3
-			"", // 4
-			"" // 5
+			"35mm 8x8 Self-propelled Anti-aircraft Cannon", // 1
+			"PGZ-07 twin 35mm self-propelled anti-aircraft gun", // 2
+			"PGZ-04A PGZ95", // 3
+			"Type 63 anti-aircraft gun", // 4
+			"Type 95 SPAAA (PGZ95) 25 mm" // 5
 	};
 	String[] chinaMissiles = new String[] { 
 			//chinam
-			"SC-19" +
-			"KT-1 (Kaituozhe-1), KT-2, KT-3  (Anti-satellite missile)", // 1
-			"Fan Ji (Anti-Ballistic Missile)", // 2
-			"HQ-18/15 (Anti-Ballistic Missile)", // 3
-			"S-300 PMU2", // 4
-			"S-300 PMU1 (HQ-10)", // 5
-			"HQ-9 Surface to Air Missile (FT-200)", // 6
-			"KS-1000 Missile", // 7
-			"Kai Shan - 1 (KS-1)", // 8
-			"HQ-12/KS-2", // 9
-			"FT-2000", // 10			
-			"Sky Dragon", // 11
-			"FD-2000", // 12
-			"S-300 PMU", // 13
-			"HQ-16", // 14
-			"Tor-M1", // 15
-			"HQ-7 (FM-B0)", // 16
-			"HQ-6" // 17
+			"SC-19",//1
+			"KT-1 (Kaituozhe-1), KT-2, KT-3  (Anti-satellite missile)", // 2
+			"Fan Ji (Anti-Ballistic Missile)", // 3
+			"HQ-18/15 (Anti-Ballistic Missile)", // 4
+			"S-300 PMU2", // 5
+			"S-300 PMU1 (HQ-10)", // 6
+			"HQ-9 Surface to Air Missile (FT-200)", // 7
+			"KS-1000 Missile", // 8
+			"Kai Shan - 1 (KS-1)", // 9
+			"HQ-12/KS-2", // 10
+			"FT-2000", // 11			
+			"Sky Dragon", // 12
+			"FD-2000", // 13
+			"S-300 PMU", // 14
+			"HQ-16", // 15
+			"Tor-M1", // 16
+			"HQ-7 (FM-B0)", // 17
+			"HQ-6" // 18
 		
 	};
 	String[] chinaRadars = new String[] { 

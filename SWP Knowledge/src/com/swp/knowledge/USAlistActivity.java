@@ -52,7 +52,7 @@ public class USAlistActivity extends Activity {
 			"AN/TWQ-1 Avenger", // 15
 			"MIM-104 Patriot", // 16
 			"Patriot missile", // 17
-			"Roland (missile)", // 18
+			"Poland (missile)", // 18
 			"RIM-116 Rolling Airframe Missile", // 19
 			"RIM-162 ESSM", // 20
 			"LAV-25" // 21

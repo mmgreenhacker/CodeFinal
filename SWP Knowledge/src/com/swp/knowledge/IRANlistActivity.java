@@ -29,7 +29,7 @@ public class IRANlistActivity extends Activity {
 	String[] iranGUNS = new String[] { 
 			"ZU-23-2", // 1
 			"Oerlikon GDF", // 2
-			"120 mm gun KS-19", // 3
+			"100 mm gun KS-19", // 3
 			"Mesbash 1" // 4
 			
 	};
@@ -39,11 +39,9 @@ public class IRANlistActivity extends Activity {
 			"S-200 Dubna SA-5 Gammon" // 2			
 	};
 	String[] iranRadars = new String[] { 
-			"", // 1
-			"", // 2
-			"", // 3
-			"", // 4
-			"" // 5
+			"Kashef", // 1
+			"Matla-ul-fajr", // 2
+			
 	};
 
 	@Override

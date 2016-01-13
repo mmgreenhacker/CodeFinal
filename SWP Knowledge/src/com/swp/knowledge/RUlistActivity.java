@@ -33,6 +33,8 @@ public class RUlistActivity extends Activity {
 			"AZP S-60", // 4
 			"ZSU-23-4", // 5
 			"37 mm AA M1939(61-K)", // 6
+			"85 mm Air Defense Gun M1939 (52-К)",//7
+			"100 mm Air Defense Gun KS-19",//8
 			
 	};
 	String[] ruMissiles = new String[] { 
@@ -45,14 +47,34 @@ public class RUlistActivity extends Activity {
 			"S-300 Family အေထြေထြ အခ်က္အလက္မ်ား", // 6
 			"S-200 Dubna", // 7
 			"S-125 Neva/Pechora", // 8
+			"S-75 Lea / V-750 SA-2 Guideline",//9
+			"Pantsir-S1",//10
+			"9K37 Buk Missile System NATO Reporting Name:SA-11 Gadfly, SA-17 Grizzly",//11
+			"9K38 Igla",//12
+			"9K35 Strela-10",//13
+			"9K34 Strela-3",//14
+			"9K33 Osa (NATO Reporting Name: SA-8 Gecko)",//15
+			"9K32 Strela-2 SA-7 Grail",//16
+			"2K22 Tunguska (NATO Reporting Name: SA-19 Grison)",//17
+			
 			
 	};
 	String[] ruRadars = new String[] { 
-			"R1", // 1
-			"R2", // 2
-			"R3", // 3
-			"R4", // 4
-			"R5" // 5
+			"1L13-3-1 Nebo-sv Mobile Metric-wave 2-D Radar", // 1
+			"1L117M RADAR", // 2
+			"1S32 (Pat Hand) H-band Fire Control and Guidance Radar(NATO Code SA-4 Ganef)", // 3
+			"5N84AE Oborona-14 Mobile Metric-band 2-D Radar", // 4
+			"96L6E RADAR" ,// 5
+			"GAMMA-S1E RADAR", // 6
+			"GAMMA-DE Radar", // 7
+			"Gazetchik Equipment For Radar Protection Against Antiradar Missiles", // 8
+			"KASTA-2E2 Radar", // 9
+			"KASTA-2E1 RADAR" ,// 10
+			"P-18-2 Mobile Metric-wave 2-d Radar", // 11
+			"P-40 1S12 Long Track 3D UH Early Warning & Acquisition Radar (NATO reporting name - Long Track)", // 12
+			"PROTIVNIK-GE Radar", // 13
+			"PRV-9 1RL19 Thin Skin E Band Heigh Finding Radar", // 14
+			
 	};
 
 	@Override
