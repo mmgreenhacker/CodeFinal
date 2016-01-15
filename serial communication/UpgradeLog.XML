@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="serial communication">
+</Property><Property Name="Solution File" Value="K:\Cadet-HMA\serial communication\serial communication.sln">
+</Property><Property Name="User Options File" Value="K:\Cadet-HMA\serial communication\serial communication.suo">
+</Property><Property Name="Date" Value="Monday, October 19, 2015">
+</Property><Property Name="Time" Value="6:37 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="serial communication.sln" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication.sln">
+</Event><Event ErrorLevel="0" Project="" Source="serial communication.suo" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication.suo">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\serial communication.vbproj" Description="Project file successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\serial communication.vbproj">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\Form1.vb" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\Form1.vb">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\Form1.Designer.vb" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\Form1.Designer.vb">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\My Project\AssemblyInfo.vb" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\My Project\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\My Project\Application.Designer.vb" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\My Project\Resources.Designer.vb" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\My Project\Settings.Designer.vb" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\My Project\Application.myapp" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\My Project\Settings.settings" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\Form1.resx" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\Form1.resx">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\My Project\Resources.resx" Description="File successfully backed up as K:\Cadet-HMA\serial communication\Backup\serial communication\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\serial communication.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="serial communication" Source="serial communication\serial communication.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="serial communication.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="serial communication.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="serial communication" Source="serial communication\serial communication.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

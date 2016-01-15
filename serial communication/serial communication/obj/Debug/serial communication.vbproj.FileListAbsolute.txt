@@ -1,0 +1,24 @@
+D:\vb exercises\serial communication\serial communication\bin\Debug\serial communication.exe
+D:\vb exercises\serial communication\serial communication\bin\Debug\serial communication.pdb
+D:\vb exercises\serial communication\serial communication\bin\Debug\serial communication.xml
+D:\vb exercises\serial communication\serial communication\obj\Debug\ResolveAssemblyReference.cache
+D:\vb exercises\serial communication\serial communication\obj\Debug\serial_communication.Form1.resources
+D:\vb exercises\serial communication\serial communication\obj\Debug\serial_communication.Resources.resources
+D:\vb exercises\serial communication\serial communication\obj\Debug\serial communication.vbproj.GenerateResource.Cache
+D:\vb exercises\serial communication\serial communication\obj\Debug\serial communication.exe
+D:\vb exercises\serial communication\serial communication\obj\Debug\serial communication.xml
+D:\vb exercises\serial communication\serial communication\obj\Debug\serial communication.pdb
+K:\Cadet-HMA\serial communication\serial communication\bin\Debug\serial communication.exe.config
+K:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial communication.exe
+K:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial communication.xml
+K:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial communication.pdb
+K:\Cadet-HMA\serial communication\serial communication\bin\Debug\serial communication.exe
+K:\Cadet-HMA\serial communication\serial communication\bin\Debug\serial communication.pdb
+K:\Cadet-HMA\serial communication\serial communication\bin\Debug\serial communication.xml
+K:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial_communication.Form1.resources
+K:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial_communication.Resources.resources
+K:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial communication.vbproj.GenerateResource.Cache
+G:\Cadet-HMA\serial communication\serial communication\bin\Debug\serial communication.exe.config
+G:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial communication.exe
+G:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial communication.xml
+G:\Cadet-HMA\serial communication\serial communication\obj\Debug\serial communication.pdb
