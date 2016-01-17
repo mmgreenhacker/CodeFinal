@@ -328,15 +328,16 @@ public final class R {
         public static final int activity_laoslist=0x7f060014;
         public static final int activity_login=0x7f060015;
         public static final int activity_main=0x7f060016;
-        public static final int activity_ru=0x7f060017;
-        public static final int activity_rudetail=0x7f060018;
-        public static final int activity_rulist=0x7f060019;
-        public static final int activity_superc=0x7f06001a;
-        public static final int activity_thailand=0x7f06001b;
-        public static final int activity_thailanddetail=0x7f06001c;
-        public static final int activity_thailandlist=0x7f06001d;
-        public static final int activity_usa=0x7f06001e;
-        public static final int activity_usadetail=0x7f06001f;
+        public static final int activity_qmain=0x7f060017;
+        public static final int activity_ru=0x7f060018;
+        public static final int activity_rudetail=0x7f060019;
+        public static final int activity_rulist=0x7f06001a;
+        public static final int activity_superc=0x7f06001b;
+        public static final int activity_thailand=0x7f06001c;
+        public static final int activity_thailanddetail=0x7f06001d;
+        public static final int activity_thailandlist=0x7f06001e;
+        public static final int activity_usa=0x7f06001f;
+        public static final int activity_usadetail=0x7f060020;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
@@ -365,6 +366,7 @@ public final class R {
         public static final int title_activity_laoslist=0x7f04001f;
         public static final int title_activity_login=0x7f040003;
         public static final int title_activity_main=0x7f040004;
+        public static final int title_activity_qmain=0x7f040023;
         public static final int title_activity_ru=0x7f040009;
         public static final int title_activity_rudetail=0x7f040016;
         public static final int title_activity_rulist=0x7f040015;

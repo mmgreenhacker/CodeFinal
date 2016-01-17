@@ -79,8 +79,7 @@
         android:layout_height="140dp"
         android:layout_gravity="center"
         android:scaleType="fitXY"
-        android:onClick="funISRAELmissiles"
+        android:onClick="funISRAELmissiles"        
         android:src="@drawable/missile1" />
-    
 
 </LinearLayout>

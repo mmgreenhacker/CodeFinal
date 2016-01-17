@@ -35,5 +35,6 @@
     <string name="title_activity_laosdetail">LAOSdetailActivity</string>
     <string name="title_activity_bangladeshlist">BANGLADESHlistActivity</string>
     <string name="title_activity_bangladeshdetail">BANGLADESHdetailActivity</string>
+    <string name="title_activity_qmain">QMainActivity</string>
 
 </resources>
