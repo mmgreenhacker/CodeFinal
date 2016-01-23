@@ -1,6 +1,7 @@
 clc;clear all;
 %Arithmatic Coding
 %by Ketul Shah
+%http://psrdotcom.blogspot.com/2008/11/my-first-matlab-program.html
 %Nirma University
 prompt='  Enter the word    ';
 str=input(prompt,'s');
