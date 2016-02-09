@@ -23,26 +23,26 @@ Partial Class frmMain
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
-        Me.tabCipher = New System.Windows.Forms.TabControl()
-        Me.tabAbout = New System.Windows.Forms.TabPage()
-        Me.LinkLabel4 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.pbStatus = New System.Windows.Forms.ProgressBar()
-        Me.OpenFileDialog = New System.Windows.Forms.OpenFileDialog()
-        Me.FolderBrowserDialog = New System.Windows.Forms.FolderBrowserDialog()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutMeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.btnMainExit = New System.Windows.Forms.Button()
-        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.LinkLabel5 = New System.Windows.Forms.LinkLabel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.tabCipher = New System.Windows.Forms.TabControl
+        Me.tabAbout = New System.Windows.Forms.TabPage
+        Me.LinkLabel4 = New System.Windows.Forms.LinkLabel
+        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel
+        Me.TextBox1 = New System.Windows.Forms.TextBox
+        Me.pbStatus = New System.Windows.Forms.ProgressBar
+        Me.OpenFileDialog = New System.Windows.Forms.OpenFileDialog
+        Me.FolderBrowserDialog = New System.Windows.Forms.FolderBrowserDialog
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip
+        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.AboutMeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.btnMainExit = New System.Windows.Forms.Button
+        Me.ColumnHeader1 = New System.Windows.Forms.ColumnHeader
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox
+        Me.LinkLabel5 = New System.Windows.Forms.LinkLabel
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox
         Me.tabCipher.SuspendLayout()
         Me.tabAbout.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -125,7 +125,7 @@ Partial Class frmMain
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(6, 3, 0, 3)
-        Me.MenuStrip1.Size = New System.Drawing.Size(613, 25)
+        Me.MenuStrip1.Size = New System.Drawing.Size(613, 30)
         Me.MenuStrip1.TabIndex = 3
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -133,26 +133,26 @@ Partial Class frmMain
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 19)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(38, 24)
         Me.FileToolStripMenuItem.Text = "File"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(101, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(118, 24)
         Me.ExitToolStripMenuItem.Text = "ထြက္ရန္"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutMeToolStripMenuItem})
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(56, 19)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(71, 24)
         Me.AboutToolStripMenuItem.Text = "အကူအညီ"
         '
         'AboutMeToolStripMenuItem
         '
         Me.AboutMeToolStripMenuItem.Name = "AboutMeToolStripMenuItem"
-        Me.AboutMeToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
+        Me.AboutMeToolStripMenuItem.Size = New System.Drawing.Size(176, 24)
         Me.AboutMeToolStripMenuItem.Text = "ကၽြန္ေတာ္႔အေၾကာင္း"
         '
         'btnMainExit

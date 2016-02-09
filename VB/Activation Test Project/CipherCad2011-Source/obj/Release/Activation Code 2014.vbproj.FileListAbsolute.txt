@@ -15,3 +15,6 @@ C:\Users\bluephoenix\Desktop\Activation Codes for Ko Htet Aung\Activation Test P
 C:\Users\bluephoenix\Desktop\Activation Codes for Ko Htet Aung\Activation Test Project\CipherCad2011-Source\obj\Release\Activation Code 2014.vbproj.GenerateResource.Cache
 C:\Users\bluephoenix\Desktop\Activation Codes for Ko Htet Aung\Activation Test Project\CipherCad2011-Source\obj\Release\Personal File Locker 2013.exe.manifest
 C:\Users\bluephoenix\Desktop\Activation Codes for Ko Htet Aung\Activation Test Project\CipherCad2011-Source\obj\Release\Personal File Locker 2013.application
+L:\Students\CodeFinal\VB\Activation Test Project\CipherCad2011-Source\obj\Release\Personal File Locker 2013.exe
+L:\Students\CodeFinal\VB\Activation Test Project\CipherCad2011-Source\obj\Release\Personal File Locker 2013.xml
+L:\Students\CodeFinal\VB\Activation Test Project\CipherCad2011-Source\obj\Release\Personal File Locker 2013.pdb
